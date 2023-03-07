@@ -10,7 +10,6 @@ Fazer o backlog do projeto a partir das User Story's criadas.
 
 | ID da US | Sprint | US | Estimativa de Esforço | Critério de Aceitação | Teste de Aceitação |
 |----------|--------|----|-----------------------|-----------------------|--------------------|
-|
 
 ---
 
@@ -24,7 +23,6 @@ Todas as tarefas relacionadas com estudo entra no Burndown.
 
 | Descrição | Data de Início | Responsável | Previsão(h) | Data de Término |
 |-----------|----------------|-------------|-------------|-----------------|
-|
 
 ---
 
