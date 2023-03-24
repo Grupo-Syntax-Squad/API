@@ -1,6 +1,27 @@
-# API
+# Syntax Squad
 
-## Backlog - PO
+## Visão do Produto
+
+## MVP
+
+## Priorização dos Requisitos
+
+## Plano de Entregas
+
+## Integrantes do Grupo 👨‍💻
+
+| Nome                           | GitHub                                                   | LinkedIn                                                                                  |
+|--------------------------------|----------------------------------------------------------|-------------------------------------------------------------------------------------------|
+| Diego Dias Motta Boa Sorte     | [/diegoboasorte](https://github.com/diegoboasorte)       |
+| Gabriel Felipe dos Santos      | [/gabrielfsantos99](https://github.com/gabrielfsantos99) |
+| Gabriel de Oliveira Silva Reis | [/b4hia](https://github.com/b4hia)                       |
+| João Vitor dos Santos Pereira  | [/]()                                                    |
+| Lucas Langeani                 | [/langeanith](https://github.com/langeanith)             |
+| Mateus Henrique Lima dos Reis  | [/mhlreis](https://github.com/mhlreis)                   |
+| Ryan Verissimo de Araujo       | [/ryavdaraujo](https://github.com/ryanvdaraujo)          |
+| Wellington Luiz de Faria       | [/WellingtonLFaria](https://github.com/WellingtonLFaria) | [in/wellington-faria-92007425b/](https://www.linkedin.com/in/wellington-faria-92007425b/) |
+
+## Product Backlog - PO
 
 Fazer o backlog do projeto a partir das User Story's criadas.
 
@@ -10,19 +31,6 @@ Fazer o backlog do projeto a partir das User Story's criadas.
 
 | ID da US | Sprint | US | Estimativa de Esforço | Critério de Aceitação | Teste de Aceitação |
 |----------|--------|----|-----------------------|-----------------------|--------------------|
-
----
-
-## Burndown - MASTER
-
-Todas as tarefas relacionadas com estudo entra no Burndown.
-
-***As tarefas de estudo tem que estar relacionadas com as metas que o time deseja alcançar.***
-
-### Ex de tabela de Burndown 🔥
-
-| Descrição                                   | Data de Início | Responsável      | Previsão(h) | Data de Término |
-|---------------------------------------------|----------------|------------------|-------------|-----------------|
 
 ---
 
