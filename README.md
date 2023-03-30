@@ -6,6 +6,10 @@ O produto tem como objetivo facilitar para o jornalista acessar, visualizar e co
 
 ## MVP
 
+- Wireframe
+  - https://www.figma.com/file/Ox8KcNvkylAJDsWbpvBEIQ/COVID-longa?node-id=0-1&t=um7MfOEEyLBAGLqE-0
+  - https://www.figma.com/proto/Ox8KcNvkylAJDsWbpvBEIQ/COVID-longa?node-id=7-18&scaling=min-zoom&page-id=0%3A1&starting-point-node-id=7%3A18
+  
 ## Priorização dos Requisitos
 
 | Item                                                     | Sprint | Grau de Prioridade  | ID |
@@ -43,7 +47,7 @@ O produto tem como objetivo facilitar para o jornalista acessar, visualizar e co
 | Tela Quem Somos                                          | 4      | Baixo               | 13 |
 
 
-## Integrantes do Grupo 👨‍💻
+## Autores 👨‍💻
 
 | Nome                           | GitHub                                                   | LinkedIn                                                                                  |
 |--------------------------------|----------------------------------------------------------|-------------------------------------------------------------------------------------------|
