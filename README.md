@@ -44,6 +44,12 @@ O produto tem como objetivo facilitar para o jornalista acessar, visualizar e co
 | Documentação                                             | 4      | Baixa               |
 | Teste do Sistema                                         | 4      | Baixa               |
 
+## User Story's 📝
+
+| ID US | Sprint | US | Estimativa de Esforço |
+|-------|--------|----|-----------------------|
+
+
 ## Integrantes do Grupo 👨‍💻
 
 | Nome                           | GitHub                                                   | LinkedIn                                                                                  |
@@ -57,8 +63,6 @@ O produto tem como objetivo facilitar para o jornalista acessar, visualizar e co
 | Ryan Verissimo de Araujo       | [/ryavdaraujo](https://github.com/ryanvdaraujo)          |
 | Wellington Luiz de Faria       | [/WellingtonLFaria](https://github.com/WellingtonLFaria) | [in/wellington-faria-92007425b/](https://www.linkedin.com/in/wellington-faria-92007425b/) |
 
-## User Story's 📝
-
 ---
 
 # Sprints 🎯
@@ -66,3 +70,11 @@ O produto tem como objetivo facilitar para o jornalista acessar, visualizar e co
 ---
 
 ## Sprint - 1️⃣ 🎯
+
+### Backlog da Sprint
+
+| Item      | Grau de Importância |
+|-----------|---------------------|
+| Wireframe | Alta                |
+| Backlog   | Alta                |
+
