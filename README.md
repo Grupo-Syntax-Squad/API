@@ -50,11 +50,11 @@ O produto tem como objetivo facilitar para o jornalista acessar, visualizar e co
 | Diego Dias Motta Boa Sorte     | [/diegoboasorte](https://github.com/diegoboasorte)       |
 | Gabriel Felipe dos Santos      | [/gabrielfsantos99](https://github.com/gabrielfsantos99) |
 | Gabriel de Oliveira Silva Reis | [/b4hia](https://github.com/b4hia)                       |
-| João Vitor dos Santos Pereira  | [/JaovitoP](https://github.com/JaovitoP)                 | [in/joaopereira18](https://www.linkedin.com/in/joaopereira18/)                 
+| João Vitor dos Santos Pereira  | [/JaovitoP](https://github.com/JaovitoP)                 | [joaopereira18](https://www.linkedin.com/in/joaopereira18/)                
 | Lucas Langeani                 | [/langeanith](https://github.com/langeanith)             |
 | Mateus Henrique Lima dos Reis  | [/mhlreis](https://github.com/mhlreis)                   |
 | Ryan Verissimo de Araujo       | [/ryavdaraujo](https://github.com/ryanvdaraujo)          |
-| Wellington Luiz de Faria       | [/WellingtonLFaria](https://github.com/WellingtonLFaria) | [in/wellington-faria-92007425b/](https://www.linkedin.com/in/wellington-faria-92007425b/) |
+| Wellington Luiz de Faria       | [/WellingtonLFaria](https://github.com/WellingtonLFaria) | [wellington-luiz-de-faria-92007425b](https://br.linkedin.com/in/wellington-luiz-de-faria-92007425b) |
 
 ---
 
