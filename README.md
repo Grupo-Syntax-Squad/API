@@ -8,41 +8,39 @@ O produto tem como objetivo facilitar para o jornalista acessar, visualizar e co
 
 ## Priorização dos Requisitos
 
-| Item                                                     | Sprint | Grau de Importância |
-|----------------------------------------------------------|--------|---------------------|
-| Wireframe                                                | 1      | Alta                |
-| Levantamento de Requisitos                               | 1      | Alta                |
-| Definir os filtros                                       | 2      | Alta                |
-| Filtrar os dados coletados baseado nos filtros definidos | 2      | Alta                |
-| Raspagem de dados                                        | 2      | Alta                |
-| Definir filtros das cidades que serão analisados         | 2      | Média               |
-| Definir filtros dos sintomas que serão analisados        | 2      | Média               |
-| Construir as páginas de cada cidade                      | 3      | Alta                |
-| Montar os gráficos relacionando os sintomas e cidades    | 3      | Alta                |
-| Construir a página home                                  | 3      | Média               |
-| Construir a página quem somos                            | 3      | Baixa               |
-| Conclusões sobre a COVID Longa                           | 4      | Baixa               |
-| Documentação                                             | 4      | Baixa               |
-| Teste do Sistema                                         | 4      | Baixa               |
+| Item                                                     | Sprint | Grau de Prioridade  | ID |
+|----------------------------------------------------------|--------|---------------------|----|
+| Wireframe                                                | 1      | Alto                | 01 |
+| Backlog                                                  | 1      | Médio               | 02 |
+| Visualização de Gráficos                                 | 2      | Alto                | 03 |
+| Definição de filtros                                     | 2      | Médio               | 04 |
+| Raspagem de dados                                        | 2      | Médio               | 05 |
+| Menu de Navegação                                        | 3      | Alto                | 06 |
+| Armazenamento de Dados                                   | 3      | Médio               | 07 |
+| Criação do Banco de Dados                                | 3      | Médio               | 08 |
+| Tela de Acesso                                           | 3      | Médio               | 09 |
+| Back Web                                                 | 4      | Média               | 10 |
+| README                                                   | 4      | Baixo               | 11 |
+| Front Web                                                | 4      | Baixo               | 12 |
+| Tela Quem Somos                                          | 4      | Baixo               | 13 |
 
 ## Plano de Entregas
 
-| Item                                                     | Sprint | Grau de Importância |
-|----------------------------------------------------------|--------|---------------------|
-| Wireframe                                                | 1      | Alta                |
-| Levantamento de Requisitos                               | 1      | Alta                |
-| Definir os filtros                                       | 2      | Alta                |
-| Filtrar os dados coletados baseado nos filtros definidos | 2      | Alta                |
-| Raspagem de dados                                        | 2      | Alta                |
-| Definir filtros das cidades que serão analisados         | 2      | Média               |
-| Definir filtros dos sintomas que serão analisados        | 2      | Média               |
-| Construir as páginas de cada cidade                      | 3      | Alta                |
-| Montar os gráficos relacionando os sintomas e cidades    | 3      | Alta                |
-| Construir a página home                                  | 3      | Média               |
-| Construir a página quem somos                            | 3      | Baixa               |
-| Conclusões sobre a COVID Longa                           | 4      | Baixa               |
-| Documentação                                             | 4      | Baixa               |
-| Teste do Sistema                                         | 4      | Baixa               |
+| Item                                                     | Sprint | Grau de Prioridade  | ID |
+|----------------------------------------------------------|--------|---------------------|----|
+| Wireframe                                                | 1      | Alto                | 01 |
+| Backlog                                                  | 1      | Médio               | 02 |
+| Visualização de Gráficos                                 | 2      | Alto                | 03 |
+| Definição de filtros                                     | 2      | Médio               | 04 |
+| Raspagem de dados                                        | 2      | Médio               | 05 |
+| Menu de Navegação                                        | 3      | Alto                | 06 |
+| Armazenamento de Dados                                   | 3      | Médio               | 07 |
+| Criação do Banco de Dados                                | 3      | Médio               | 08 |
+| Tela de Acesso                                           | 3      | Médio               | 09 |
+| Back Web                                                 | 4      | Média               | 10 |
+| README                                                   | 4      | Baixo               | 11 |
+| Front Web                                                | 4      | Baixo               | 12 |
+| Tela Quem Somos                                          | 4      | Baixo               | 13 |
 
 ## User Story's 📝
 
