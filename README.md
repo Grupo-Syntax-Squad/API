@@ -60,8 +60,6 @@ O produto tem como objetivo facilitar para o jornalista acessar, visualizar e co
 
 # Sprints 🎯
 
----
-
 ## Sprint - 1️⃣ 🎯
 
 ### User Story's 📝
