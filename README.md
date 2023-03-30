@@ -1,14 +1,19 @@
 # Syntax Squad
 
-## Visão do Produto
+## Objetivo do Projeto
 
 O produto tem como objetivo facilitar para o jornalista acessar, visualizar e comparar dados que estão relacionados a COVID Longa em uma interface de fácil navegação e fácil acesso.
+  
+## Visão do Produto
+
+Para jornalistas da Rede Vanguarda que desejam acessar, visualizar e analizar dados da COVID Longa, o data SARS é um site que permite um fácil acesso a informações relacionadas a COVID Longa. Ao contrário de alguns sites que propagam Fake News e que não possuem filtros de pesquisa, o nosso produto fornece os dados de maneira que seja fácil de entender e de analisar os dados, uma vez que nossos dados são autênticos e possuímos uma interface limpa.
+
 
 ## MVP
 
-- Wireframe
-  - https://www.figma.com/file/Ox8KcNvkylAJDsWbpvBEIQ/COVID-longa?node-id=0-1&t=um7MfOEEyLBAGLqE-0
-  - https://www.figma.com/proto/Ox8KcNvkylAJDsWbpvBEIQ/COVID-longa?node-id=7-18&scaling=min-zoom&page-id=0%3A1&starting-point-node-id=7%3A18
+![image](https://user-images.githubusercontent.com/91472871/228876458-aa84ff7d-8443-4391-8e45-43a386b568ad.png)
+
+1. Wireframe: [Protótipo navegável](https://www.figma.com/proto/Ox8KcNvkylAJDsWbpvBEIQ/COVID-longa?node-id=7-18&scaling=min-zoom&page-id=0%3A1&starting-point-node-id=7%3A18)
   
 ## Priorização dos Requisitos
 
@@ -30,35 +35,21 @@ O produto tem como objetivo facilitar para o jornalista acessar, visualizar e co
 
 ## Plano de Entregas
 
-| Item                                                     | Sprint | Grau de Prioridade  | ID |
-|----------------------------------------------------------|--------|---------------------|----|
-| Wireframe                                                | 1      | Alto                | 01 |
-| Backlog                                                  | 1      | Médio               | 02 |
-| Visualização de Gráficos                                 | 2      | Alto                | 03 |
-| Definição de filtros                                     | 2      | Médio               | 04 |
-| Raspagem de dados                                        | 2      | Médio               | 05 |
-| Menu de Navegação                                        | 3      | Alto                | 06 |
-| Armazenamento de Dados                                   | 3      | Médio               | 07 |
-| Criação do Banco de Dados                                | 3      | Médio               | 08 |
-| Tela de Acesso                                           | 3      | Médio               | 09 |
-| Back Web                                                 | 4      | Média               | 10 |
-| README                                                   | 4      | Baixo               | 11 |
-| Front Web                                                | 4      | Baixo               | 12 |
-| Tela Quem Somos                                          | 4      | Baixo               | 13 |
-
-
-## Autores 👨‍💻
-
-| Nome                           | GitHub                                                   | LinkedIn                                                                                  |
-|--------------------------------|----------------------------------------------------------|-------------------------------------------------------------------------------------------|
-| Diego Dias Motta Boa Sorte     | [/diegoboasorte](https://github.com/diegoboasorte)       |
-| Gabriel Felipe dos Santos      | [/gabrielfsantos99](https://github.com/gabrielfsantos99) |
-| Gabriel de Oliveira Silva Reis | [/b4hia](https://github.com/b4hia)                       |
-| João Vitor dos Santos Pereira  | [/JaovitoP](https://github.com/JaovitoP)                 | [joaopereira18](https://www.linkedin.com/in/joaopereira18/)                
-| Lucas Langeani                 | [/langeanith](https://github.com/langeanith)             |
-| Mateus Henrique Lima dos Reis  | [/mhlreis](https://github.com/mhlreis)                   |
-| Ryan Verissimo de Araujo       | [/ryavdaraujo](https://github.com/ryanvdaraujo)          |
-| Wellington Luiz de Faria       | [/WellingtonLFaria](https://github.com/WellingtonLFaria) | [wellington-luiz-de-faria-92007425b](https://br.linkedin.com/in/wellington-luiz-de-faria-92007425b) |
+| Item                                                     | Data de Entrega | Grau de Prioridade  | ID |
+|----------------------------------------------------------|-----------------|---------------------|----|
+| Wireframe                                                | 02/04           | Alto                | 01 |
+| Backlog                                                  | 02/04           | Médio               | 02 |
+| Visualização de Gráficos                                 | 23/04           | Alto                | 03 |
+| Definição de filtros                                     | 23/04           | Médio               | 04 |
+| Raspagem de dados                                        | 23/04           | Médio               | 05 |
+| Menu de Navegação                                        | 14/05           | Alto                | 06 |
+| Armazenamento de Dados                                   | 14/05           | Médio               | 07 |
+| Criação do Banco de Dados                                | 14/05           | Médio               | 08 |
+| Tela de Acesso                                           | 14/05           | Médio               | 09 |
+| Back Web                                                 | 04/06           | Média               | 10 |
+| README                                                   | 04/06           | Baixo               | 11 |
+| Front Web                                                | 04/06           | Baixo               | 12 |
+| Tela Quem Somos                                          | 04/06           | Baixo               | 13 |
 
 ---
 
@@ -80,12 +71,16 @@ O produto tem como objetivo facilitar para o jornalista acessar, visualizar e co
 | US08  | 1      | "Enquanto desenvolvedor quero criar no wireframe, páginas independentes para cada cidade que contenham as categorias e menus de navegação, além de uma página inicial e uma "Quem Somos", seguindo os requisitos do jornalista." |                       |
 | US09  | 1      | "Eu enquanto desenvolvedor, no wireframe, quero introduzir o assunto da COVID longa em uma página inicial usando de menus, imagens, mapas e textos, que facilitem a navegação e entendimento do usuário."                        |                       |
 
+## Autores 👨‍💻
 
-
-### Backlog da Sprint
-
-| Item      | Grau de Importância |
-|-----------|---------------------|
-| Wireframe | Alta                |
-| Backlog   | Alta                |
+| Nome                           | GitHub                                                   | LinkedIn                                                                                  |
+|--------------------------------|----------------------------------------------------------|-------------------------------------------------------------------------------------------|
+| Diego Dias Motta Boa Sorte     | [/diegoboasorte](https://github.com/diegoboasorte)       |
+| Gabriel Felipe dos Santos      | [/gabrielfsantos99](https://github.com/gabrielfsantos99) |
+| Gabriel de Oliveira Silva Reis | [/b4hia](https://github.com/b4hia)                       |
+| João Vitor dos Santos Pereira  | [/JaovitoP](https://github.com/JaovitoP)                 | [joaopereira18](https://www.linkedin.com/in/joaopereira18/)                
+| Lucas Langeani                 | [/langeanith](https://github.com/langeanith)             |
+| Mateus Henrique Lima dos Reis  | [/mhlreis](https://github.com/mhlreis)                   |
+| Ryan Verissimo de Araujo       | [/ryavdaraujo](https://github.com/ryanvdaraujo)          |
+| Wellington Luiz de Faria       | [/WellingtonLFaria](https://github.com/FLW2023) | [wellington-luiz-de-faria-92007425b](https://br.linkedin.com/in/wellington-luiz-de-faria-92007425b) |
 
