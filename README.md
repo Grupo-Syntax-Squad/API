@@ -82,5 +82,5 @@ Para jornalistas da Rede Vanguarda que desejam acessar, visualizar e analizar da
 | Lucas Langeani                 | [/langeanith](https://github.com/langeanith)             |
 | Mateus Henrique Lima dos Reis  | [/mhlreis](https://github.com/mhlreis)                   |
 | Ryan Verissimo de Araujo       | [/ryavdaraujo](https://github.com/ryanvdaraujo)          |
-| Wellington Luiz de Faria       | [/WellingtonLFaria](https://github.com/FLW2023) | [wellington-luiz-de-faria-92007425b](https://br.linkedin.com/in/wellington-luiz-de-faria-92007425b) |
+| Wellington Luiz de Faria       | [/WellingtonLFaria](https://github.com/WellingtonLFaria) | [wellington-luiz-de-faria-92007425b](https://br.linkedin.com/in/wellington-luiz-de-faria-92007425b) |
 
