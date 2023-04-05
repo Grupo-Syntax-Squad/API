@@ -81,6 +81,6 @@ Para jornalistas da Rede Vanguarda que desejam acessar, visualizar e analizar da
 | João Vitor dos Santos Pereira  | [/JaovitoP](https://github.com/JaovitoP)                 | [joaopereira18](https://www.linkedin.com/in/joaopereira18/)                
 | Lucas Langeani                 | [/langeanith](https://github.com/langeanith)             |
 | Mateus Henrique Lima dos Reis  | [/mhlreis](https://github.com/mhlreis)                   |
-| Ryan Verissimo de Araujo       | [/ryavdaraujo](https://github.com/ryanvdaraujo)          |
+| Ryan Verissimo de Araujo       | [/ryavdaraujo](https://github.com/ryanvdaraujo)          | [Ryan](https://www.linkedin.com/in/ryan-verissimo-de-araujo-910925239/)
 | Wellington Luiz de Faria       | [/WellingtonLFaria](https://github.com/WellingtonLFaria) | [wellington-luiz-de-faria-92007425b](https://br.linkedin.com/in/wellington-luiz-de-faria-92007425b) |
 
