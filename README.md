@@ -75,7 +75,7 @@ Para jornalistas da Rede Vanguarda que desejam acessar, visualizar e analizar da
 
 | Nome                           | GitHub                                                   | LinkedIn                                                                                  |
 |--------------------------------|----------------------------------------------------------|-------------------------------------------------------------------------------------------|
-| Diego Dias Motta Boa Sorte     | [/diegoboasorte](https://github.com/diegoboasorte)       |
+| Diego Dias Motta Boa Sorte     | [/diegoboasorte](https://github.com/diegoboasorte)       | [Diego](https://www.linkedin.com/in/diegoboasorte)
 | Gabriel Felipe dos Santos      | [/gabrielfsantos99](https://github.com/gabrielfsantos99) |
 | Gabriel de Oliveira Silva Reis | [/b4hia](https://github.com/b4hia)                       |
 | João Vitor dos Santos Pereira  | [/JaovitoP](https://github.com/JaovitoP)                 | [João](https://www.linkedin.com/in/joaopereira18/)                
