@@ -1,0 +1,18 @@
+ Morbidade Hospitalar do SUS - por local de internação - São Paulo
+Internações por Município e Capítulo CID-10
+Município: 350250 APARECIDA, 350850 CACAPAVA, 352440 JACAREI, 354990 SAO JOSE DOS CAMPOS, 355410 TAUBATE
+Período:2022
+"Município";"Cap 01";"Cap 02";"Cap 03";"Cap 04";"Cap 05";"Cap 06";"Cap 07";"Cap 08";"Cap 09";"Cap 10";"Cap 11";"Cap 12";"Cap 13";"Cap 14";"Cap 15";"Cap 16";"Cap 17";"Cap 18";"Cap 19";"Cap 21";"Total"
+"350250 APARECIDA";209;333;75;52;5;40;483;4;514;484;481;114;34;613;-;7;-;28;218;29;3723
+"350850 CACAPAVA";119;57;16;59;3;25;1;5;397;451;432;53;25;394;515;28;5;111;377;98;3171
+"352440 JACAREI";747;2287;85;136;572;209;19;10;1062;963;1850;125;157;1052;2088;438;31;125;1297;180;13433
+"354990 SAO JOSE DOS CAMPOS";1643;5925;415;774;732;1080;601;51;6322;4426;5911;662;1351;3530;6255;793;309;654;5343;907;47684
+"355410 TAUBATE";1475;2642;254;245;206;251;512;64;2700;1666;2360;301;622;1985;3434;381;220;417;2728;286;22749
+"Total";4193;11244;845;1266;1518;1605;1616;134;10995;7990;11034;1255;2189;7574;12292;1647;565;1335;9963;1500;90760
+ Fonte: Ministério da Saúde - Sistema de Informações Hospitalares do SUS (SIH/SUS)
+ Notas:
+ 
+ Situação da base de dados nacional em 29/04/2016.
+ Dados de janeiro de 2015 até março de 2016 sujeitos a retificação.
+ 
+ Consulte o site da Secretaria Estadual de Saúde para mais informações.
