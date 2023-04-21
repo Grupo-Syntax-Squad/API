@@ -4,14 +4,39 @@
     <title>Quem Somos</title>
 {% endblock %}
 
+{% block botoes %}
+<div class="botao">
+    <button><a href='#'>Quem somos</a></button>
+    <button><a href='acessomunicipio.html'>Home</a></button>
+</div>
+{% endblock %}
+
 {% block body %}
     <h1>Syntax Squad</h1>
     <hr>
+    <div class="campo">
+        <select id="integrante" onchange="window.location.href = this.value;">
+            <option selected disabled value="">Selecione um integrante:</option>
+            <option value="/integrantes/diego.html">Diego Dias</option>
+            <option value="/integrantes/gabrielf.html">Gabriel Felipe</option>
+            <option value="/integrantes/gabrieldeo.html">Gabriel de Oliveira</option>
+            <option value="/integrantes/joao.html">João Vitor</option>
+            <option value="/integrantes/lucas.html">Lucas Langeani</option>
+            <option value="/integrantes/mateus.html">Mateus Henrique</option>
+            <option value="/integrantes/ryan.html">Ryan Araujo</option>
+            <option value="/integrantes/wellington.html">Wellington Luiz</option>
+            <option value="quemsomos.html">Sobre Nós</option>
+        </select>
+    </div>
+
     <h2>Sobre Nós</h2>
     <p>eu sou um texto que irá apresentar o nome dos integrantes da equipe, suas informações como: <br>
     redes socias, contato, idade, etc.</p>
+    <img src="../static/logosintax.jpg" alt="logo Syntax Squad" class="sintax-img">
+    
+    
+    <img src="../static/git_icon.png" alt="Ícone - Github" class="github">
 
-        <img src="../static/logosintax.jpg" alt="logo Syntax Squad">
-        <i class="fa fa-github"></i><a href="https://github.com/GRUPOAPIDSM2023" class="git"target="_blank">Syntax Squad</a>
+    <a href="https://github.com/GRUPOAPIDSM2023" class="gitlink"> <h3> Sintax Squad </h3></a>
 
 {% endblock %}

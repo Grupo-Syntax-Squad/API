@@ -27,13 +27,21 @@ nav {
     justify-content: space-between
 }
 
-a{
+.botao button a{
   text-decoration: none;
   color: #ffffff;
 }
 
+.botao button{
+  background-color: black;
+  float: right;
+  padding: 5px;
+  height: 30px;
+  border-radius: 15px
+}
+
 button{
-    background-color: black;
+    background-color:grey;
     float: right;
     padding: 5px;
     height: 30px;
@@ -56,12 +64,8 @@ p, h1, h2, h3{
     height: 410px; 
   }
 
-
-body {
-  background-color: #ffffff;
-}
-
   html, body {
+    background-color: #ffffff;
     height: 100%;
     overflow-y: auto;
   }
@@ -103,5 +107,29 @@ body {
 
 .git {
   color: black;
+}
+
+.sintax-img {
+  position:absolute;
+  top: 220px;
+  left: 730px; 
+  width: 490px;
+  height: 310px; 
+}
+
+.github {
+  position:absolute;
+  top: 535px;
+  left: 730px; 
+  width: 40px;
+  height: 40px; 
+  } 
+
+.gitlink {
+  text-decoration: none;
+  color: black;
+  position:absolute;
+  top: 530px;
+  left: 775px; 
 }
 

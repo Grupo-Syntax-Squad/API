@@ -15,26 +15,58 @@ def home():
 def acessomunicipio():
   return render_template('acessomunicipio.html')
 
-@app.route("/acessoaparecida.html")
+@app.route("/municipios/acessoaparecida.html")
 def acessoaparecida():
-  return render_template('acessoaparecida.html')
+  return render_template('/municipios/acessoaparecida.html')
 
-@app.route("/acessocaçapava.html")
+@app.route("/municipios/acessocaçapava.html")
 def acessocaçapava():
-  return render_template('acessocaçapava.html')
+  return render_template('/municipios/acessocaçapava.html')
 
-@app.route("/acessojacarei.html")
+@app.route("/municipios/acessojacarei.html")
 def acessojacarei():
-  return render_template('acessojacarei.html')
+  return render_template('/municipios/acessojacarei.html')
 
-@app.route("/acessosjc.html")
+@app.route("/municipios/acessosjc.html")
 def acessosjc():
-  return render_template('acessosjc.html')
+  return render_template('/municipios/acessosjc.html')
 
-@app.route("/acessotaubate.html")
+@app.route("/municipios/acessotaubate.html")
 def acessotaubate():
-  return render_template('acessotaubate.html')
+  return render_template('/municipios/acessotaubate.html')
 
 @app.route("/quemsomos.html")
 def quemsomos():
   return render_template('quemsomos.html')
+
+@app.route("/integrantes/diego.html")
+def diego():
+  return render_template('/integrantes/diego.html')
+
+@app.route("/integrantes/gabrieldeo.html")
+def gabrieldeo():
+  return render_template('/integrantes/gabrieldeo.html')
+
+@app.route("/integrantes/gabrielf.html")
+def gabrielf():
+  return render_template('/integrantes/gabrielf.html')
+
+@app.route("/integrantes/joao.html")
+def joao():
+  return render_template('/integrantes/joao.html')
+
+@app.route("/integrantes/lucas.html")
+def lucas():
+  return render_template('/integrantes/lucas.html')
+
+@app.route("/integrantes/mateus.html")
+def mateus():
+  return render_template('/integrantes/mateus.html')
+
+@app.route("/integrantes/ryan.html")
+def ryan():
+  return render_template('/integrantes/ryan.html')
+
+@app.route("/integrantes/wellington.html")
+def wellington():
+  return render_template('/integrantes/wellington.html')
