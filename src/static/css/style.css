@@ -1,12 +1,13 @@
 header {
-    height: 100px;
-    background-image: url(../logo2.jpg);
+  height: 100px;
+  background-color:#304558;
+  margin: 0;
+  padding: 0;
 }
 
-.logo {
-    width: 120px;
-    height: 70px;
-    padding: 8px
+#logo {
+    width: 350px;
+    height: 100px;
 } 
 footer {
   text-align: center;
@@ -27,25 +28,62 @@ nav {
     justify-content: space-between
 }
 
+nav button {
+  margin-right: 10px;
+  margin-top: 8px;
+}
+
 .botao button a{
   text-decoration: none;
   color: #ffffff;
 }
 
 .botao button{
+  display: flex;
   background-color: black;
   float: right;
   padding: 5px;
   height: 30px;
   border-radius: 15px
 }
+.continuar {
+  position: absolute;
+  top: 400px;
+  left: 550px; 
+}
 
-button{
-    background-color:grey;
-    float: right;
+.continuar button{
+    background-color:rgb(219, 219, 219);
     padding: 5px;
-    height: 30px;
-    border-radius: 15px
+    height: 29px;
+    width: 120px;
+    border-radius: 15px;
+    border-color: black;
+}
+
+.continuar button a{
+  text-decoration: none;
+  color:black;
+  font-weight: bold;
+  font-size: 15px
+}
+
+.link-grafico button{
+  margin-top: 20px;
+  margin-left: 50px;
+  height: 29px;
+  width: 200px;
+  border-radius: 15px;
+  border-color: black;
+}
+
+.link-grafico button a{
+  margin-top: 20px;
+  margin-left: 0px;
+  text-decoration: none;
+  color:black;
+  font-weight: bold;
+  font-size: 15px;
 }
 
 .p-mapa{
@@ -55,7 +93,12 @@ color:#0f5a4e
 p, h1, h2, h3{
     font-family:Arial, Helvetica, sans-serif;
 }
-  
+
+h2, p {
+  margin-top: 30px;
+  margin-left: 20px;
+}
+
   .mapa-img {
     position:absolute;
     top: 220px;
@@ -63,11 +106,26 @@ p, h1, h2, h3{
     width: 650px;
     height: 410px; 
   }
+  .index-img{
+    position:absolute;
+    top: 220px;
+    left: 830px; 
+    width: 500px;
+    height: 290px; 
+  }
+
+  .vale {
+    position: absolute;
+    top: 480px;
+    left: 950px
+  }
 
   html, body {
     background-color: #ffffff;
     height: 100%;
     overflow-y: auto;
+    margin: 0;
+    padding: 0;
   }
   
   .registro {
@@ -92,17 +150,33 @@ p, h1, h2, h3{
 
   .legenda {
     position: absolute;
-    top: 620px;
-    left: 900px
+    top: 580px;
+    left: 850px
   }
+
+.campo{
+  margin-top: 30px;
+  margin-left: 20px;
+  border-radius: 15px;
+}
 
   .campo select option{
     padding-right:1em;
+    background-color: rgb(239, 239, 239);
+    border-radius: 15px;
+    font-weight: bold;
+    font-size: 15px;
+    border-color: black;
   }
 
   .campo select {
     width: 300px;
     text-align: center;
+    background-color: rgb(239, 239, 239);;
+    border-radius: 15px;
+    font-weight: bold;
+    font-size: 15px;
+    border-color: black;
 }
 
 .git {
@@ -133,3 +207,22 @@ p, h1, h2, h3{
   left: 775px; 
 }
 
+#alinhar{
+  text-align: center
+}
+h1{
+  margin-top: 5px;
+  margin-left: 20px;
+}
+
+hr{
+  margin-top: -15px;
+}
+
+#foto{
+  position:absolute;
+  top: 220px;
+  left: 730px; 
+  width: 310px;
+  height: 310px; 
+}

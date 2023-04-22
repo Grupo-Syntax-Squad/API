@@ -1,0 +1,33 @@
+{% extends 'base.html' %}
+
+{% block title %}
+    <title>Gráficos - Caçapava</title>
+{% endblock %}
+
+{% block botoes %}
+<div class="botao">
+    <button><a href='../quemsomos.html'>Quem somos</a></button>
+    <button><a href='../acessomunicipio.html'>Home</a></button>
+</div>
+{% endblock %}
+{% block body %}
+    <h1>Caçapava - Covid longa</h1>
+    <hr>
+
+    <div class="campo">
+        <select id="municipio"  onchange="window.location.href = this.value;">
+          <option selected disabled value="">Caçapava</option>
+          <option value="acessosjc.html">São José Dos Campos</option>
+          <option value="acessotaubate.html">Taubaté</option>
+          <option value="acessojacarei.html">Jacareí</option>
+          <option value="acessocaçapava.html">Caçapava</option>
+          <option value="acessoaparecida.html">Aparecida</option>
+        </select>
+      </div>
+
+    <img src="../../static/graficos_caçapava/Casos de Internações_Doenças do aparelho circulatório-CACAPAVA.png" alt="Casos de Internações - Doenças do aparelho circulatório - Caçapava">
+    <img src="../../static/graficos_caçapava/Casos de Internações_Doenças do aparelho digestivo-CACAPAVA.png" alt="Casos de Internações - Doenças do aparelho digestivo - Caçapava">
+    <img src="../../static/graficos_caçapava/Casos de Internações_Doenças do aparelho respiratório-CACAPAVA.png" alt="Casos de Internações - Doenças do aparelho respiratório - Caçapava">
+    <img src="../../static/graficos_caçapava/Casos de Internações_Doenças do sistema nervoso-CACAPAVA.png" alt="Casos de Internações - Doenças do sistema nervoso - Caçapava">
+
+{% endblock %}

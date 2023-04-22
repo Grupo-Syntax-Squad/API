@@ -6,8 +6,8 @@
 
 {% block botoes %}
 <div class="botao">
-    <button><a href='quemsomos.html'>Quem somos</a></button>
-    <button><a href='acessomunicipio.html'>Home</a></button>
+    <button><a href='../quemsomos.html'>Quem somos</a></button>
+    <button><a href='../acessomunicipio.html'>Home</a></button>
 </div>
 {% endblock %}
 
@@ -16,7 +16,7 @@
     <hr>
     <div class="campo">
         <select id="municipio" onchange="window.location.href = this.value;">
-          <option selected disabled value="">Selecione o município:</option>
+          <option selected disabled value="">Taubaté</option>
           <option value="acessosjc.html">São José Dos Campos</option>
           <option value="acessotaubate.html">Taubaté</option>
           <option value="acessojacarei.html">Jacareí</option>
@@ -34,5 +34,8 @@
         <h3>Quantidade de vacinados: Casos Registrados:000,000 </h3>
         <h3>Quantidade de Óbitos:000,000 </h3>
     </div>
-    <img src="../static/img/taubate.jpg" alt="Descrição da imagem do mapa" class="mapa-img">
+    <img src="../../static/mapas/taubate.jpg" alt="Descrição da imagem do mapa" class="mapa-img">
+    <div class="link-grafico">
+        <button> <a href="graficos_taubate.html">Visualizar gráficos</a> </button>
+    </div>
 {% endblock %}

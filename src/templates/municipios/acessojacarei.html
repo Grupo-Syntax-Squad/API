@@ -6,18 +6,17 @@
 
 {% block botoes %}
 <div class="botao">
-    <button><a href='quemsomos.html'>Quem somos</a></button>
-    <button><a href='acessomunicipio.html'>Home</a></button>
+    <button><a href='../quemsomos.html'>Quem somos</a></button>
+    <button><a href='../acessomunicipio.html'>Home</a></button>
 </div>
 {% endblock %}
 
 {% block body %}
-    <h1>São José Dos Campos  Covid longa - Casos por município</h1>
+    <h1>Jacareí  Covid longa - Casos por município</h1>
     <hr>
-
     <div class="campo">
-        <select id="municipio"  onchange="window.location.href = this.value;">
-          <option selected disabled value="">Selecione o município:</option>
+        <select id="municipio" onchange="window.location.href = this.value;">
+          <option selected disabled value="">Jacareí</option>
           <option value="acessosjc.html">São José Dos Campos</option>
           <option value="acessotaubate.html">Taubaté</option>
           <option value="acessojacarei.html">Jacareí</option>
@@ -25,10 +24,9 @@
           <option value="acessoaparecida.html">Aparecida</option>
         </select>
       </div>
-
     
     <div class="cidade">
-        <h2>São José Dos Campos</h2>
+        <h2>Jacareí</h2>
     </div>
 
     <div class="registro">
@@ -36,5 +34,8 @@
         <h3>Quantidade de vacinados: Casos Registrados:000,000 </h3>
         <h3>Quantidade de Óbitos:000,000 </h3>
     </div>
-    <img src="../static/img/saojose.jpg" alt="Descrição da imagem do mapa" class="mapa-img">
+    <img src="../../static/mapas/jacarei.jpg" alt="Descrição da imagem do mapa" class="mapa-img">
+    <div class="link-grafico">
+        <button> <a href="graficos_jacarei.html">Visualizar gráficos</a> </button>
+    </div>
 {% endblock %}
