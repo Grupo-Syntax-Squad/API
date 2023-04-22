@@ -32,6 +32,7 @@ Com o repositório clonado e no diretório correto, você deverá criar um ambie
 
 1. Ao entrar na pasta src, digite os seguintes comandos:
 ```
+py -3 -m venv venv
 python -m venv venv
 .\venv\Scripts\activate
 pip install -r requirements.txt
