@@ -42,7 +42,7 @@ Dessa forma, com as Tarefas já traçadas, definimos a quantidade de tempo neces
 ## 🏆**MVP**
 
 <p align="center">
-      <img src="/documents/img/MVP.PNG" alt="MVP do Projeto">
+      <img src="/documents/img/MVP.png" alt="MVP do Projeto">
 <br>
 
 1. Wireframe: [Protótipo navegável](https://www.figma.com/proto/Ox8KcNvkylAJDsWbpvBEIQ/COVID-longa?node-id=7-18&scaling=min-zoom&page-id=0%3A1&starting-point-node-id=7%3A18)
