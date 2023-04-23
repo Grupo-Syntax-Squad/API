@@ -178,7 +178,7 @@ hr {
   position:absolute;
   top: 220px;
   left: 730px; 
-  width: 490px;
+  width: 450px;
   height: 310px; 
 }
 
@@ -198,19 +198,17 @@ hr {
   left: 775px; 
 }
 
-#alinhar{
-  text-align: center
-}
 h1{
   margin-top: 5px;
   margin-left: 20px;
+  text-align: center;
 }
 
 hr{
   margin-top: -15px;
 }
 
-#foto{
+.foto{
   position:absolute;
   top: 220px;
   left: 730px; 
@@ -261,6 +259,6 @@ hr{
   justify-content: center;
   }
 
-.alinhar-graficos{
+.alinhar{
   text-align: center;
 }
