@@ -28,7 +28,7 @@ cd src/
 
 ## Iniciando o ambiente virtual
 
-Com o repositório clonado e no diretório correto, você deverá criar um ambiente virtual para rodar o sistema; siga os próximos passos:
+Com o repositório clonado e no diretório correto, você deverá criar um ambiente virtual para rodar o sistema: siga os próximos passos:
 
 1. Ao entrar na pasta src, digite os seguintes comandos:
 ```
