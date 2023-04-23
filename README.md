@@ -10,11 +10,11 @@
 <br>
 <p align="center">
     |
-  <a href ="#objetivo do projeto">  Objetivo do Projeto </a>  |     
+  <a href ="#objetivo-do-projeto">  Objetivo do Projeto </a>  |     
   <a href ="#metodologia"> Metodologia </a>  |
   <a href ="#mvp"> MVP </a>  |
   <a href ="#sprints"> Sprints </a>  |
-  <a href ="#backlog"> Backlog do Produto </a>  | 
+  <a href ="#backlog-do-produto"> Backlog do Produto </a>  | 
   <a href ="#autores"> Autores </a>  |
 </p>
 </br>
@@ -46,7 +46,7 @@ Dessa forma, com as Tarefas já traçadas, definimos a quantidade de tempo neces
 <br>
 
 1. Wireframe: [Protótipo navegável](https://www.figma.com/proto/Ox8KcNvkylAJDsWbpvBEIQ/COVID-longa?node-id=7-18&scaling=min-zoom&page-id=0%3A1&starting-point-node-id=7%3A18)
-2. Visualização de Gráficos: ([Protótipo com gráficos](src/))
+2. Web Site: ([Versão Inicial](src/))
 
 <br> 
 
@@ -82,7 +82,7 @@ Dessa forma, com as Tarefas já traçadas, definimos a quantidade de tempo neces
 | README                                                   | 4      | Baixa               | #14 | 02h | 🚧  |  04/06            |
 <br>
 
-## **Autores** 👨‍💻
+## 👨‍💻**Autores** 
 
 |      Nome      |    Função       |                            Github                             |                           Linkedin                           |
 | :--------------: | :-----------: | :----------------------------------------------------------: | :----------------------------------------------------------: |
