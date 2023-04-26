@@ -23,8 +23,7 @@
 > O produto tem como objetivo facilitar para o jornalista acessar, visualizar e comparar dados que estão relacionados a COVID Longa em uma interface de fácil navegação e fácil acesso. 
 > **Status do Projeto: Em andamento ⏳**
 
-O produto tem como objetivo facilitar para o jornalista acessar, visualizar e comparar dados que estão relacionados a COVID Longa em uma interface de fácil navegação e fácil acesso.
-<br> </br>
+<br> 
   
 ## 💡Visão do Produto
 
@@ -54,7 +53,7 @@ Dessa forma, com as Tarefas já traçadas, definimos a quantidade de tempo neces
 
 ### Sprint - 1️⃣ 🎯 ([Clique aqui](/documents/Sprints/Sprint1)):  Concluído✅
 
-### Sprint - 2️⃣ 🎯 ([Clique aqui](documents/Sprints/Sprint2)):  Em construção🚧
+### Sprint - 2️⃣ 🎯 ([Clique aqui](/documents/Sprints/Sprint2)):  Concluído✅
 
 ### Sprint - 3️⃣ 🎯 :  Em construção🚧
 
@@ -68,10 +67,10 @@ Dessa forma, com as Tarefas já traçadas, definimos a quantidade de tempo neces
 |:----------------------------------------------------------:|:--------:|:---------------------:|:----:|:-----:|:---:|:-----:|
 | Wireframe                                                | 1      | Alta                | #01 | 04h | ✅  |  02/04            |    
 | Backlog                                                  | 1      | Médio               | #02 | 05h | ✅  |  02/04            |
-| Criação do Site Inicial                                  | 2      | Alta                | #03 | 04h | 🚧  |  23/04            |
-| Tela de Acesso                                           | 2      | Médio               | #04 | 02h | 🚧  |  23/04            |
-| Tela Quem somos                                          | 2      | Baixa               | #05 | 02h | 🚧  |  23/04            |
-| Definição de filtros                                     | 2      | Baixa               | #06 | 02h | 🚧  |  23/04            |
+| Criação do Site Inicial                                  | 2      | Alta                | #03 | 04h | ✅  |  23/04            |
+| Tela de Acesso                                           | 2      | Médio               | #04 | 02h | ✅  |  23/04            |
+| Tela Quem somos                                          | 2      | Baixa               | #05 | 02h | ✅  |  23/04            |
+| Definição de filtros                                     | 2      | Baixa               | #06 | 02h | ✅  |  23/04            |
 | Visualização de Gráficos                                 | 3      | Alta                | #07 | 05h | 🚧  |  14/05            |
 | Raspagem de dados                                        | 3      | Médio               | #08 | 06h | 🚧  |  14/05            |
 | Menu de Navegação                                        | 3      | Alta                | #09 | 04h | 🚧  |  14/05            |
