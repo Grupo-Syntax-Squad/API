@@ -74,11 +74,10 @@ Dessa forma, com as Tarefas já traçadas, definimos a quantidade de tempo neces
 | Visualização de Gráficos                                 | 3      | Alta                | #07 | 05h | 🚧  |  14/05            |
 | Raspagem de dados                                        | 3      | Médio               | #08 | 06h | 🚧  |  14/05            |
 | Menu de Navegação                                        | 3      | Alta                | #09 | 04h | 🚧  |  14/05            |
-| Armazenamento de Dados                                   | 3      | Médio               | #10 | 08h | 🚧  |  14/05            |
-| Criação de um Banco de Dados                             | 3      | Médio               | #11 | 06h | 🚧  |  14/05            |
-| Formatação do Site e Estilização                         | 4      | Média               | #12 | 04h | 🚧  |  04/06            |
-| Testes                                                   | 4      | Média               | #13 | 05h | 🚧  |  04/06            |
-| README                                                   | 4      | Baixa               | #14 | 02h | 🚧  |  04/06            |
+| Integração dos Gráficos ao site                          | 3      | Médio               | #10 | 04h | 🚧  |  14/05            |
+| Formatação do Site e Estilização                         | 4      | Média               | #11 | 04h | 🚧  |  04/06            |
+| Testes                                                   | 4      | Média               | #12 | 05h | 🚧  |  04/06            |
+| README                                                   | 4      | Baixa               | #13 | 02h | 🚧  |  04/06            |
 <br>
 
 ## 👨‍💻**Autores** 
