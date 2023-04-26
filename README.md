@@ -46,7 +46,8 @@ Dessa forma, com as Tarefas já traçadas, definimos a quantidade de tempo neces
 
 1. Wireframe: [Protótipo navegável](https://www.figma.com/proto/Ox8KcNvkylAJDsWbpvBEIQ/COVID-longa?node-id=7-18&scaling=min-zoom&page-id=0%3A1&starting-point-node-id=7%3A18)
 2. Web Site: ([Versão Inicial](src/))
-
+3. Web Site (video): [Navegação Web](https://user-images.githubusercontent.com/115598741/234711012-72778776-5de7-4a64-be95-dbcc8874223f.mp4)
+      
 <br> 
 
 ## 📅Sprints 
