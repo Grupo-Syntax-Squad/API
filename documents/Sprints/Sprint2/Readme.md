@@ -2,6 +2,13 @@
 Nesta Sprint foi desenvolvido suscintamente as páginas principais do site em HTML. Além disso, iniciamos o processo de raspagem de dados definindo filtros para as pesquisas. 
 <br>
 </br>
+
+## Vídeo do Site Funcionando (Versão Inicial):
+
+https://user-images.githubusercontent.com/125401155/234884007-eeadcb81-0498-4b9b-b451-9a4c2841eabb.mp4
+
+<hr>
+
 ## Backlog da Sprint
 <hr>
 
