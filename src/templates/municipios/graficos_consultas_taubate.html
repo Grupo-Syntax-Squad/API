@@ -1,0 +1,35 @@
+{% extends 'base.html' %}
+
+{% block title %}
+    <title>Gráficos de consultas - Taubaté</title>
+{% endblock %}
+
+{% block botoes %}
+<div class="botao">
+    <button><a href='../quemsomos.html'>Quem somos</a></button>
+    <button><a href='../acessomunicipio.html'>Home</a></button>
+</div>
+{% endblock %}
+{% block body %}
+    <h1>Taubaté - Covid longa</h1>
+    <hr>
+
+    <div class="campo">
+        <select id="municipio"  onchange="window.location.href = this.value;">
+          <option selected disabled value="">Taubaté</option>
+          <option value="acessosjc.html">São José Dos Campos</option>
+          <option value="acessotaubate.html">Taubaté</option>
+          <option value="acessojacarei.html">Jacareí</option>
+          <option value="acessocaçapava.html">Caçapava</option>
+          <option value="acessoaparecida.html">Aparecida</option>
+        </select>
+      </div>
+    <div class="alinhar">
+      <img src="../../static/graficos_consultas/consultas_taubaté.png" alt="consultas_taubaté.png">
+      <img src="../../static/graficos_consultas/total_consultas_taubaté.png" alt="total_consultas_taubaté.png">
+    </div>
+{% endblock %}
+
+{% block footer %}
+<footer class="footer-relative">Copyright © 2023 Syntax Squad | Todos os direitos reservados</footer>
+{% endblock %}

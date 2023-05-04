@@ -55,6 +55,26 @@ def graficos_jacarei():
 def graficos_taubate():
   return render_template('/municipios/graficos_taubate.html')
 
+@app.route("/municipios/graficos_consultas_taubate.html")
+def graficos_consultas_taubate():
+  return render_template('/municipios/graficos_consultas_taubate.html')
+
+@app.route("/municipios/graficos_consultas_aparecida.html")
+def graficos_consultas_aparecida():
+  return render_template('/municipios/graficos_consultas_aparecida.html')
+
+@app.route("/municipios/graficos_consultas_cacapava.html")
+def graficos_consultas_cacapava():
+  return render_template('/municipios/graficos_consultas_cacapava.html')
+
+@app.route("/municipios/graficos_consultas_jacarei.html")
+def graficos_consultas_jacarei():
+  return render_template('/municipios/graficos_consultas_jacarei.html')
+
+@app.route("/municipios/graficos_consultas_sjc.html")
+def graficos_consultas_sjc():
+  return render_template('/municipios/graficos_consultas_sjc.html')
+
 @app.route("/quemsomos.html")
 def quemsomos():
   return render_template('quemsomos.html')
