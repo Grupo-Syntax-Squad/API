@@ -25,14 +25,19 @@
         </select>
       </div>
     
+      <div class="campo">
+        <select id="municipio" onchange="window.location.href = this.value;">
+          <option selected disabled value="">Selecionar categoria</option>
+          <option value="graficos_consultas_taubate.html">Consultas</option>
+          <option value="graficos_internacoes_taubate.html">Internações</option>
+        </select>
+      </div>
+
     <div class="cidade">
         <h2>Taubaté</h2>
     </div>
 
     <img src="../../static/mapas/taubate.jpg" alt="Descrição da imagem do mapa" class="mapa-img">
-    <div class="link-grafico">
-        <button> <a href="graficos_taubate.html">Visualizar gráficos</a> </button>
-    </div>
 {% endblock %}
 
 {% block footer %}

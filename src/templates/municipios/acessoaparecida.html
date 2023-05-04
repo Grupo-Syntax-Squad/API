@@ -25,15 +25,19 @@
         </select>
       </div>
 
-    
+      <div class="campo">
+        <select id="municipio" onchange="window.location.href = this.value;">
+          <option selected disabled value="">Selecionar categoria</option>
+          <option value="graficos_consultas_aparecida.html">Consultas</option>
+          <option value="graficos_internacoes_aparecida.html">Internações</option>
+        </select>
+      </div>
+
     <div class="cidade">
         <h2>Aparecida</h2>
     </div>
 
     <img src="../../static/mapas/aparecida.jpg" alt="Descrição da imagem do mapa" class="mapa-img">
-    <div class="link-grafico">
-        <button> <a href="graficos_aparecida.html">Visualizar gráficos</a> </button>
-    </div>
 {% endblock %}
 
 {% block footer %}

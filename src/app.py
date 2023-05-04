@@ -35,25 +35,25 @@ def acessosjc():
 def acessotaubate():
   return render_template('/municipios/acessotaubate.html')
 
-@app.route("/municipios/graficos_sjc.html")
-def graficos_sjc():
-  return render_template('/municipios/graficos_sjc.html')
+@app.route("/municipios/graficos_internacoes_sjc.html")
+def graficos_internacoes_sjc():
+  return render_template('/municipios/graficos_internacoes_sjc.html')
 
-@app.route("/municipios/graficos_aparecida.html")
-def graficos_aparecida():
-  return render_template('/municipios/graficos_aparecida.html')
+@app.route("/municipios/graficos_internacoes_aparecida.html")
+def graficos_internacoes_aparecida():
+  return render_template('/municipios/graficos_internacoes_aparecida.html')
 
-@app.route("/municipios/graficos_caçapava.html")
-def graficos_caçapava():
-  return render_template('/municipios/graficos_caçapava.html')
+@app.route("/municipios/graficos_internacoes_cacapava.html")
+def graficos_internacoes_cacapava():
+  return render_template('/municipios/graficos_internacoes_cacapava.html')
 
-@app.route("/municipios/graficos_jacarei.html")
-def graficos_jacarei():
-  return render_template('/municipios/graficos_jacarei.html')
+@app.route("/municipios/graficos_internacoes_jacarei.html")
+def graficos_internacoes_jacarei():
+  return render_template('/municipios/graficos_internacoes_jacarei.html')
 
-@app.route("/municipios/graficos_taubate.html")
-def graficos_taubate():
-  return render_template('/municipios/graficos_taubate.html')
+@app.route("/municipios/graficos_internacoes_taubate.html")
+def graficos_internacoes_taubate():
+  return render_template('/municipios/graficos_internacoes_taubate.html')
 
 @app.route("/municipios/graficos_consultas_taubate.html")
 def graficos_consultas_taubate():

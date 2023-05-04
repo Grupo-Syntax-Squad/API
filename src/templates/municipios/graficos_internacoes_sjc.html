@@ -1,7 +1,7 @@
 {% extends 'base.html' %}
 
 {% block title %}
-    <title>Gráficos de consultas - São José Dos Campos</title>
+    <title>Gráficos - SJC</title>
 {% endblock %}
 
 {% block botoes %}
@@ -11,7 +11,7 @@
 </div>
 {% endblock %}
 {% block body %}
-    <h1>São José dos Campos - Covid longa</h1>
+    <h1>São José Dos Campos - Covid longa</h1>
     <hr>
 
     <div class="campo">
@@ -27,18 +27,20 @@
 
       <div class="campo">
         <select id="municipio" onchange="window.location.href = this.value;">
-          <option selected disabled value="">Consultas</option>
+          <option selected disabled value="">Internações</option>
           <option value="graficos_consultas_sjc.html">Consultas</option>
           <option value="graficos_internacoes_sjc.html">Internações</option>
         </select>
-      </div><br>
+      </div><br>   
 
     <div class="alinhar">
-      <img src="../../static/graficos_consultas/consultas_sjc.png" class="alinhar-consultas" alt="consultas_sjc.png">
-      <img src="../../static/graficos_consultas/total_consultas_sjc.png" class="alinhar-consultas" alt="total_consultas_sjc.png">
+      <img src="../../static/graficos_internacoes/Casos de Internações_Doenças do aparelho circulatório-SAO JOSE DOS CAMPOS.png" alt="Casos de Internações - Doenças do aparelho circulatório - SJC">
+      <img src="../../static/graficos_internacoes/Casos de Internações_Doenças do aparelho digestivo-SAO JOSE DOS CAMPOS.png" alt="Casos de Internações - Doenças do aparelho digestivo - SJC">
+      <img src="../../static/graficos_internacoes/Casos de Internações_Doenças do aparelho respiratório-SAO JOSE DOS CAMPOS.png" alt="Casos de Internações - Doenças do aparelho respiratório - SJC">
+      <img src="../../static/graficos_internacoes/Casos de Internações_Doenças do sistema nervoso-SAO JOSE DOS CAMPOS.png" alt="Casos de Internações - Doenças do sistema nervoso - SJC">
     </div>
 {% endblock %}
 
 {% block footer %}
-<footer class="footer">Copyright © 2023 Syntax Squad | Todos os direitos reservados</footer>
+<footer class="footer-relative">Copyright © 2023 Syntax Squad | Todos os direitos reservados</footer>
 {% endblock %}
