@@ -22,18 +22,16 @@ nav button {
   margin-top: 8px
 }
 
-.botao button a{
-  text-decoration: none;
-  color: #ffffff
-}
-
 .botao button{
+  text-decoration: none;
+  color: #ffffff;
   display: flex;
   background-color: black;
   float: right;
   padding: 5px;
   height: 30px;
-  border-radius: 15px
+  border-radius: 15px;
+  cursor:pointer
 }
 
 .continuar {
@@ -43,20 +41,19 @@ nav button {
 }
 
 .continuar button{
+    text-decoration: none;
+    color:black;
+    font-weight: bold;
+    font-size: 15px;
     background-color:rgb(219, 219, 219);
     padding: 5px;
     height: 29px;
     width: 120px;
     border-radius: 15px;
-    border-color: black
+    border-color: black;
+    cursor: pointer
 }
 
-.continuar button a{
-  text-decoration: none;
-  color:black;
-  font-weight: bold;
-  font-size: 15px
-}
 
 .link-grafico button{
   margin-top: 20px;
