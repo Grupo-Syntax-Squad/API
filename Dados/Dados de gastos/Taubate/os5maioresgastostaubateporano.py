@@ -4,8 +4,8 @@ import re
 
 anos = ["2019", "2020", "2021", "2022"]
 
-valores = []
 for ano in anos:
+    valores = []
     with open(f"relatorio{ano}.txt", encoding='latin') as arquivo:
         txt = arquivo.read()
         x = re.findall("([0-9]{1,3}.[0-9]{3}.[0-9]{3},[0-9]{2})", txt)
