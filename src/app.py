@@ -75,6 +75,26 @@ def graficos_consultas_jacarei():
 def graficos_consultas_sjc():
   return render_template('/municipios/graficos_consultas_sjc.html')
 
+@app.route("/municipios/graficos_medicamentos_taubate.html")
+def graficos_medicamentos_taubate():
+  return render_template('/municipios/graficos_medicamentos_taubate.html')
+
+@app.route("/municipios/graficos_medicamentos_aparecida.html")
+def graficos_medicamentos_aparecida():
+  return render_template('/municipios/graficos_medicamentos_aparecida.html')
+
+@app.route("/municipios/graficos_medicamentos_cacapava.html")
+def graficos_medicamentos_cacapava():
+  return render_template('/municipios/graficos_medicamentos_cacapava.html')
+
+@app.route("/municipios/graficos_medicamentos_jacarei.html")
+def graficos_medicamentos_jacarei():
+  return render_template('/municipios/graficos_medicamentos_jacarei.html')
+
+@app.route("/municipios/graficos_medicamentos_sjc.html")
+def graficos_medicamentos_sjc():
+  return render_template('/municipios/graficos_medicamentos_sjc.html')
+
 @app.route("/quemsomos.html")
 def quemsomos():
   return render_template('quemsomos.html')

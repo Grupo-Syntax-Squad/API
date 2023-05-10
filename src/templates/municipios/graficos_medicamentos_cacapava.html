@@ -1,7 +1,7 @@
 {% extends 'base.html' %}
 
 {% block title %}
-    <title>Gráficos de consultas - Jacarei </title>
+    <title>Gráficos - Caçapava</title>
 {% endblock %}
 
 {% block botoes %}
@@ -11,12 +11,12 @@
 </div>
 {% endblock %}
 {% block body %}
-    <h1>Jacarei - Covid longa</h1>
+    <h1>Caçapava - Covid longa</h1>
     <hr>
 
     <div class="campo">
         <select id="municipio"  onchange="window.location.href = this.value;">
-          <option selected disabled value="">Jacarei</option>
+          <option selected disabled value="">Caçapava</option>
           <option value="acessosjc.html">São José Dos Campos</option>
           <option value="acessotaubate.html">Taubaté</option>
           <option value="acessojacarei.html">Jacareí</option>
@@ -27,19 +27,15 @@
 
       <div class="campo">
         <select id="municipio" onchange="window.location.href = this.value;">
-          <option selected disabled value="">Consultas</option>
-          <option value="graficos_consultas_jacarei.html">Consultas</option>
-          <option value="graficos_medicamentos_jacarei.html">Medicamentos</option>
-          <option value="graficos_internacoes_jacarei.html">Internações</option>
+          <option selected disabled value="">Internações</option>
+          <option value="graficos_consultas_cacapava.html">Consultas</option>
+          <option value="graficos_medicamentos_cacapava.html">Medicamentos</option>
+          <option value="graficos_internacoes_cacapava.html">Internações</option>
         </select>
       </div><br>
 
-    <div class="alinhar">
-      <img src="../../static/graficos_consultas/consultas_jacarei.png" class="alinhar-consultas" alt="consultas_jacarei.png">
-      <img src="../../static/graficos_consultas/total_consultas_jacarei.png" class="alinhar-consultas" alt="total_consultas_jacarei.png">
-    </div>
 {% endblock %}
 
 {% block footer %}
-<footer class="footer">Copyright © 2023 Syntax Squad | Todos os direitos reservados</footer>
+<footer class="footer-relative">Copyright © 2023 Syntax Squad | Todos os direitos reservados</footer>
 {% endblock %}
