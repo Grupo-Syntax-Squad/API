@@ -5,7 +5,7 @@
 Para que a execução do sistema e seu uso sejam efetivados, listamos um passo a passo para realizar guiar o usuário:
 
 1. Intalação do Git:
-  - Você precisará do git instalado para poder a clonagem deste repositório; [Clique aqui para instalar o Git](https://git-scm.com/downloads). 
+  - Você precisará do git instalado para poder fazer a clonagem deste repositório; [Clique aqui para instalar o Git](https://git-scm.com/downloads). 
 
 2. Python:
   - No momento em que for instalar o python, escolha uma versão superior à 3.6. Durante a instalação, não se esqueça de marcar a opção da instalação do "pip"; [Clique aqui para instalar o python](https://www.python.org/downloads/).
@@ -28,7 +28,7 @@ cd src/
 
 ## Iniciando o ambiente virtual
 
-Com o repositório clonado e no diretório correto, você deverá criar um ambiente virtual para rodar o sistema: siga os próximos passos:
+Com o repositório clonado e no diretório correto, você deverá criar um ambiente virtual para rodar o sistema. Siga os próximos passos:
 
 1. Ao entrar na pasta src, digite os seguintes comandos:
 ```
@@ -40,11 +40,11 @@ flask run
 ```
 
 > O comando flask run, irá inicializar o site dentro do ambiente virtual.
-> Provavelmente irá aparecer um link no próprio terminal, basta segurar a tecla "CONTROL" e clicar sobre o link ou então simplesmente acesse este: http://127.0.0.1:5000
+> Provavelmente irá aparecer um link no próprio terminal, basta segurar a tecla "CONTROL" e clicar sobre o link ou então simplesmente acessar no seu navegador o link: http://127.0.0.1:5000
 
 ## Desativando o ambiente
 
-Para encerrar o uso do site e sair do ambiente virtual, execute o seguinte comando no terminal:
+Para encerrar o uso do site e sair do ambiente virtual vá ao seu terminal, (onde o Flask está rodando) aperte a tecla CONTROL, em seguida a tecla "C" e execute o seguinte comando no terminal:
 ```
 deactivate
 ```
