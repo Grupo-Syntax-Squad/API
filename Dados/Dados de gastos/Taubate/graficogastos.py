@@ -1,5 +1,6 @@
 import plotly.express as px
 import pandas as pd
+import pprint
 
 anos = ["2019", "2020", "2021", "2022"]
 valores = []
@@ -13,15 +14,19 @@ for ano in anos:
         valoresano.pop(0)
         valores.append(valoresano)
 
-print(anos, valores)
+pprint.pprint(valores)
 
-graficodict = {
-    "Anos":anos,
-    "Gasto":valores
-}
+df = pd.DataFrame(valores, index=anos)
 
-df = pd.DataFrame.from_dict(graficodict)
+print(df)
 
-fig = px.bar(df, x="Anos", y="Gasto")
+fig = px.bar(df, text_auto=True, barmode="group", width=700, height=600, title="5 maiores gastos por ano de Taubaté", labels={
+                     "value": "Gastos (R$)",
+                     "index": "Anos"
+                 })
+
+fig.update_layout(showlegend=False)
+fig.update_layout(title_x=0.5)
+fig.write_image(f"C:/Users/Fatec/Documents/GitHub/API/Dados/Dados de gastos/Taubate/GráficoGastosporAnoTaubate.svg")
 
 fig.show()
