@@ -18,12 +18,9 @@ for ano in anos:
             valor = valor.replace(".", "").replace(",", ".")
             valores.append(float(valor))
     
-    with open(f"os5maioresgastostaubate{ano}.txt", "a") as arquivo:
+    with open(f"os5maioresgastos{ano}.csv", "a") as arquivo:
         c = 0
         for valor in sorted(valores, reverse=True)[:6]:
-            if c == 0:
-                arquivo.write(f"{c}, {valor} - TOTAL\n")
-            else:
-                arquivo.write(f"{c}, {valor}\n")
+            arquivo.write(f"{valor}\n")
             print(c, valor)
             c += 1
