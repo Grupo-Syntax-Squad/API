@@ -7,127 +7,146 @@ app = Flask(__name__)
 def index():
   return render_template('index.html')
 
-@app.route("/index.html")
+@app.route("/index")
 def home():
   return render_template('index.html')
 
-@app.route("/acessomunicipio.html")
+@app.route("/acessomunicipio")
 def acessomunicipio():
   return render_template('acessomunicipio.html')
 
-@app.route("/municipios/acessoaparecida.html")
+@app.route("/acessoaparecida")
 def acessoaparecida():
   return render_template('/municipios/acessoaparecida.html')
 
-@app.route("/municipios/acessocaçapava.html")
+@app.route("/acessocaçapava")
 def acessocaçapava():
   return render_template('/municipios/acessocaçapava.html')
 
-@app.route("/municipios/acessojacarei.html")
+@app.route("/acessojacarei")
 def acessojacarei():
   return render_template('/municipios/acessojacarei.html')
 
-@app.route("/municipios/acessosjc.html")
+@app.route("/acessosjc")
 def acessosjc():
   return render_template('/municipios/acessosjc.html')
 
-@app.route("/municipios/acessotaubate.html")
+@app.route("/acessotaubate")
 def acessotaubate():
   return render_template('/municipios/acessotaubate.html')
 
-@app.route("/municipios/graficos_internacoes_sjc.html")
+@app.route("/graficos_internacoes_sjc")
 def graficos_internacoes_sjc():
   return render_template('/municipios/graficos_internacoes_sjc.html')
 
-@app.route("/municipios/graficos_internacoes_aparecida.html")
+@app.route("/graficos_internacoes_aparecida")
 def graficos_internacoes_aparecida():
   return render_template('/municipios/graficos_internacoes_aparecida.html')
 
-@app.route("/municipios/graficos_internacoes_cacapava.html")
+@app.route("/graficos_internacoes_cacapava")
 def graficos_internacoes_cacapava():
   return render_template('/municipios/graficos_internacoes_cacapava.html')
 
-@app.route("/municipios/graficos_internacoes_jacarei.html")
+@app.route("/graficos_internacoes_jacarei")
 def graficos_internacoes_jacarei():
   return render_template('/municipios/graficos_internacoes_jacarei.html')
 
-@app.route("/municipios/graficos_internacoes_taubate.html")
+@app.route("/graficos_internacoes_taubate")
 def graficos_internacoes_taubate():
   return render_template('/municipios/graficos_internacoes_taubate.html')
 
-@app.route("/municipios/graficos_consultas_taubate.html")
+@app.route("/graficos_consultas_taubate")
 def graficos_consultas_taubate():
   return render_template('/municipios/graficos_consultas_taubate.html')
 
-@app.route("/municipios/graficos_consultas_aparecida.html")
+@app.route("/graficos_consultas_aparecida")
 def graficos_consultas_aparecida():
   return render_template('/municipios/graficos_consultas_aparecida.html')
 
-@app.route("/municipios/graficos_consultas_cacapava.html")
+@app.route("/graficos_consultas_cacapava")
 def graficos_consultas_cacapava():
   return render_template('/municipios/graficos_consultas_cacapava.html')
 
-@app.route("/municipios/graficos_consultas_jacarei.html")
+@app.route("/graficos_consultas_jacarei")
 def graficos_consultas_jacarei():
   return render_template('/municipios/graficos_consultas_jacarei.html')
 
-@app.route("/municipios/graficos_consultas_sjc.html")
+@app.route("/graficos_consultas_sjc")
 def graficos_consultas_sjc():
   return render_template('/municipios/graficos_consultas_sjc.html')
 
-@app.route("/municipios/graficos_medicamentos_taubate.html")
+@app.route("/graficos_medicamentos_taubate")
 def graficos_medicamentos_taubate():
   return render_template('/municipios/graficos_medicamentos_taubate.html')
 
-@app.route("/municipios/graficos_medicamentos_aparecida.html")
+@app.route("/graficos_medicamentos_aparecida")
 def graficos_medicamentos_aparecida():
   return render_template('/municipios/graficos_medicamentos_aparecida.html')
 
-@app.route("/municipios/graficos_medicamentos_cacapava.html")
+@app.route("/graficos_medicamentos_cacapava")
 def graficos_medicamentos_cacapava():
   return render_template('/municipios/graficos_medicamentos_cacapava.html')
 
-@app.route("/municipios/graficos_medicamentos_jacarei.html")
+@app.route("/graficos_medicamentos_jacarei")
 def graficos_medicamentos_jacarei():
   return render_template('/municipios/graficos_medicamentos_jacarei.html')
 
-@app.route("/municipios/graficos_medicamentos_sjc.html")
+@app.route("/graficos_medicamentos_sjc")
 def graficos_medicamentos_sjc():
   return render_template('/municipios/graficos_medicamentos_sjc.html')
 
-@app.route("/quemsomos.html")
+@app.route("/graficos_gastos_sjc")
+def graficos_gastos_sjc():
+  return render_template('/municipios/graficos_gastos_sjc.html')
+
+@app.route("/graficos_gastos_aparecida")
+def graficos_gastos_aparecida():
+  return render_template('/municipios/graficos_gastos_aparecida.html')
+
+@app.route("/graficos_gastos_taubate")
+def graficos_gastos_taubate():
+  return render_template('/municipios/graficos_gastos_taubate.html')
+
+@app.route("/graficos_gastos_jacarei")
+def graficos_gastos_jacarei():
+  return render_template('/municipios/graficos_gastos_jacarei.html')
+
+@app.route("/graficos_gastos_cacapava")
+def graficos_gastos_cacapava():
+  return render_template('/municipios/graficos_gastos_cacapava.html')
+
+@app.route("/quemsomos")
 def quemsomos():
   return render_template('quemsomos.html')
 
-@app.route("/integrantes/diego.html")
+@app.route("/diego")
 def diego():
   return render_template('/integrantes/diego.html')
 
-@app.route("/integrantes/gabrieldeo.html")
+@app.route("/gabrieldeo")
 def gabrieldeo():
   return render_template('/integrantes/gabrieldeo.html')
 
-@app.route("/integrantes/gabrielf.html")
+@app.route("/gabrielf")
 def gabrielf():
   return render_template('/integrantes/gabrielf.html')
 
-@app.route("/integrantes/joao.html")
+@app.route("/joao")
 def joao():
   return render_template('/integrantes/joao.html')
 
-@app.route("/integrantes/lucas.html")
+@app.route("/lucas")
 def lucas():
   return render_template('/integrantes/lucas.html')
 
-@app.route("/integrantes/mateus.html")
+@app.route("/mateus")
 def mateus():
   return render_template('/integrantes/mateus.html')
 
-@app.route("/integrantes/ryan.html")
+@app.route("/ryan")
 def ryan():
   return render_template('/integrantes/ryan.html')
 
-@app.route("/integrantes/wellington.html")
+@app.route("/wellington")
 def wellington():
   return render_template('/integrantes/wellington.html')
-

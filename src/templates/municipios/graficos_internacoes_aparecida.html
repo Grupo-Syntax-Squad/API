@@ -4,35 +4,30 @@
     <title>Gráficos - Aparecida</title>
 {% endblock %}
 
-{% block botoes %}
-<div class="botao">
-  <a href='../quemsomos.html'><button>Quem somos</button></a>
-  <a href='../acessomunicipio.html'><button>Home</button></a>
-</div>
-{% endblock %}
 {% block body %}
     <h1>Aparecida - Covid longa</h1>
     <hr>
 
     <div class="campo">
-        <select id="municipio"  onchange="window.location.href = this.value;">
-          <option selected disabled value="">Aparecida</option>
-          <option value="acessosjc.html">São José Dos Campos</option>
-          <option value="acessotaubate.html">Taubaté</option>
-          <option value="acessojacarei.html">Jacareí</option>
-          <option value="acessocaçapava.html">Caçapava</option>
-          <option value="acessoaparecida.html">Aparecida</option>
-        </select>
-      </div>
+      <select id="municipio" onchange="window.location.href = this.value;">
+        <option selected disabled value="">Aparecida</option>
+        <option value="acessosjc">São José Dos Campos</option>
+        <option value="acessotaubate">Taubaté</option>
+        <option value="acessojacarei">Jacareí</option>
+        <option value="acessocaçapava">Caçapava</option>
+        <option value="acessoaparecida">Aparecida</option>
+      </select>
+    </div>
 
-      <div class="campo">
-        <select id="municipio" onchange="window.location.href = this.value;">
-          <option selected disabled value="">Internações</option>
-          <option value="graficos_consultas_aparecida.html">Consultas</option>
-          <option value="graficos_medicamentos_aparecida.html">Medicamentos</option>
-          <option value="graficos_internacoes_aparecida.html">Internações</option>
-        </select>
-      </div><br>
+    <div class="campo">
+      <select id="municipio" onchange="window.location.href = this.value;">
+        <option selected disabled value="">Internações</option>
+        <option value="graficos_consultas_aparecida">Consultas</option>
+        <option value="graficos_medicamentos_aparecida">Medicamentos</option>
+        <option value="graficos_internacoes_aparecida">Internações</option>
+        <option value="graficos_gastos_aparecida">Gastos</option>
+      </select>
+    </div><br>
 
     <div class="alinhar">
       <img src="../../static/graficos_internacoes/Casos de Internações_Doenças do aparelho circulatório-APARECIDA.png" alt="Casos de Internações - Doenças do aparelho circulatório - Aparecida">

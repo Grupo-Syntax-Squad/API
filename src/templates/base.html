@@ -1,33 +1,34 @@
 <!DOCTYPE html>
 <html lang="pt-br">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="shortcut icon" href="../static/favicon.jpg" type="image/x-icon">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <link rel="stylesheet" href="../static/css/style.css">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="shortcut icon" href="../static/favicon.jpg" type="image/x-icon">
+        <meta http-equiv="X-UA-Compatible" content="ie=edge">
+        <link rel="stylesheet" href="../static/css/style.css">
 
-    {% block title %}
-
-    {% endblock %}
-
-</head>
-<body class="page-wrapper">
-    <header>
-        <img src="../static/logodata-sars.png" alt="Logo Data-Sars" id="logo">
-    </header>
-    <nav>
-        {% block botoes %}
+        {% block title %}
 
         {% endblock %}
-    </nav>
 
-    {% block body %}
+    </head>
+    <body class="page-wrapper">
+        <header>
+            <a href="index"><img src="../static/logodata-sars.png" alt="Logo Data-Sars" id="logo"></a>
+        </header>
+        <nav>
+            <div class="botao">
+                <a href='quemsomos'><button>Quem somos</button></a>
+                <a href='acessomunicipio'><button>Acesso</button></a>
+            </div>
+        </nav>
 
-    {% endblock %}
+        {% block body %}
+
+        {% endblock %}
 
 
-</body>
+    </body>
 </html>
 
 {% block footer %}
