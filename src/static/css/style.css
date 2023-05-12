@@ -229,7 +229,8 @@ hr{
 .footer,
 .page-wrapper:after {
   height: 20px;
-  clear: both
+  clear: both;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
 
 .footer {
