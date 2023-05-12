@@ -1,18 +1,16 @@
-# selenium 4
 from selenium import webdriver
-from selenium.webdriver.chrome.service import Service as ChromeService
 from webdriver_manager.chrome import ChromeDriverManager
 from selenium.webdriver.common.by import By
 import time
 import os
 
-driver = webdriver.Chrome(service=ChromeService(ChromeDriverManager().install()))
+driver = webdriver.Chrome(ChromeDriverManager().install())
 
 meses = ['Janeiro', 'Fevereiro', 'Março', 'Abril', 'Maio', 'Junho', 'Julho', 'Agosto', 'Setembro', 'Outubro', 'Novembro', 'Dezembro']
 anos = ['2022']
 
 for ano in anos:
-    pasta = f"C:/Users/Wellington/Documents/GitHub/API/src/Gráficos/Gastos/SJC/Gastos{ano}"
+    pasta = f"src/Gráficos/Gastos/SJC/Gastos{ano}"
 
     # Vê se a pasta do respectivo ano existe
     if not os.path.exists(pasta):
@@ -42,6 +40,6 @@ for ano in anos:
     
     for c in range(12):
         if c == 0:
-            os.replace('C:/Users/Wellington/Downloads/despesa_funcao.csv', f'C:/Users/Wellington/Documents/GitHub/API/src/Gráficos/Gastos/SJC/Gastos{ano}/despesa_funcao.csv')
+            os.replace('Downloads/despesa_funcao.csv', f'src/Gráficos/Gastos/SJC/Gastos{ano}/despesa_funcao.csv')
         else:
-            os.replace(f'C:/Users/Wellington/Downloads/despesa_funcao ({c}).csv', f'C:/Users/Wellington/Documents/GitHub/API/src/Gráficos/Gastos/SJC/Gastos{ano}/despesa_funcao ({c}).csv')
+            os.replace(f'Downloads/despesa_funcao ({c}).csv', f'src/Gráficos/Gastos/SJC/Gastos{ano}/despesa_funcao ({c}).csv')
