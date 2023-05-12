@@ -7,7 +7,7 @@ valores = []
 for ano in anos:
     print(ano)
     valoresano =[]
-    with open(f"os5maioresgastos{ano}.csv") as arquivo:
+    with open(f"src/Gráficos/Gastos/Taubate/os5maioresgastos{ano}.csv") as arquivo:
         for linha in arquivo.readlines():
             print(linha, end="")
             valoresano.append(float(linha))
@@ -27,6 +27,6 @@ fig = px.bar(df, text_auto=True, barmode="group", width=700, height=600, title="
 
 fig.update_layout(showlegend=False)
 fig.update_layout(title_x=0.5)
-fig.write_image(f"C:/Users/Fatec/Documents/GitHub/API/Dados/Dados de gastos/Taubate/GráficoGastosporAnoTaubate.svg")
+fig.write_image(f"C:/Users/Wellington/Documents/GitHub/API/Dados/Dados de gastos/Taubate/GráficoGastosporAnoTaubate.svg")
 
 fig.show()
