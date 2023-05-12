@@ -4,35 +4,30 @@
     <title>Gráficos de consultas - Taubaté</title>
 {% endblock %}
 
-{% block botoes %}
-<div class="botao">
-  <a href='../quemsomos.html'><button>Quem somos</button></a>
-  <a href='../acessomunicipio.html'><button>Home</button></a>
-</div>
-{% endblock %}
 {% block body %}
     <h1>Taubaté - Covid longa</h1>
     <hr>
 
     <div class="campo">
-        <select id="municipio"  onchange="window.location.href = this.value;">
-          <option selected disabled value="">Taubaté</option>
-          <option value="acessosjc.html">São José Dos Campos</option>
-          <option value="acessotaubate.html">Taubaté</option>
-          <option value="acessojacarei.html">Jacareí</option>
-          <option value="acessocaçapava.html">Caçapava</option>
-          <option value="acessoaparecida.html">Aparecida</option>
-        </select>
-      </div>
+      <select id="municipio" onchange="window.location.href = this.value;">
+        <option selected disabled value="">Taubaté</option>
+        <option value="acessosjc">São José Dos Campos</option>
+        <option value="acessotaubate">Taubaté</option>
+        <option value="acessojacarei">Jacareí</option>
+        <option value="acessocaçapava">Caçapava</option>
+        <option value="acessoaparecida">Aparecida</option>
+      </select>
+    </div>
 
-      <div class="campo">
-        <select id="municipio" onchange="window.location.href = this.value;">
-          <option selected disabled value="">Consultas</option>
-          <option value="graficos_consultas_taubate.html">Consultas</option>
-          <option value="graficos_medicamentos_taubate.html">Medicamentos</option>
-          <option value="graficos_internacoes_taubate.html">Internações</option>
-        </select>
-      </div><br>
+    <div class="campo">
+      <select id="municipio" onchange="window.location.href = this.value;">
+        <option selected disabled value="">Consultas</option>
+        <option value="graficos_consultas_taubate">Consultas</option>
+        <option value="graficos_medicamentos_taubate">Medicamentos</option>
+        <option value="graficos_internacoes_taubate">Internações</option>
+        <option value="graficos_gastos_taubate">Gastos</option>
+      </select>
+    </div><br>
 
     <div class="alinhar">
       <img src="../../static/graficos_consultas/consultas_taubaté.png" class="alinhar-consultas" alt="consultas_taubaté.png">

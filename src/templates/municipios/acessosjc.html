@@ -4,36 +4,29 @@
     <title>Acesso - SJC</title>
 {% endblock %}
 
-{% block botoes %}
-<div class="botao">
-  <a href='../quemsomos.html'><button>Quem somos</button></a>
-  <a href='../acessomunicipio.html'><button>Home</button></a>
-</div>
-{% endblock %}
-
 {% block body %}
     <h1>São José Dos Campos - Covid longa</h1>
     <hr>
+    <div class="campo">
+      <select id="municipio" onchange="window.location.href = this.value;">
+        <option selected disabled value="">São José Dos Campos</option>
+        <option value="acessosjc">São José Dos Campos</option>
+        <option value="acessotaubate">Taubaté</option>
+        <option value="acessojacarei">Jacareí</option>
+        <option value="acessocaçapava">Caçapava</option>
+        <option value="acessoaparecida">Aparecida</option>
+      </select>
+    </div>
 
     <div class="campo">
-        <select id="municipio"  onchange="window.location.href = this.value;">
-          <option selected disabled value="">São José Dos Campos</option>
-          <option value="acessosjc.html">São José Dos Campos</option>
-          <option value="acessotaubate.html">Taubaté</option>
-          <option value="acessojacarei.html">Jacareí</option>
-          <option value="acessocaçapava.html">Caçapava</option>
-          <option value="acessoaparecida.html">Aparecida</option>
-        </select>
-      </div>
-
-      <div class="campo">
-        <select id="municipio" onchange="window.location.href = this.value;">
-          <option selected disabled value="">Selecionar categoria</option>
-          <option value="graficos_consultas_sjc.html">Consultas</option>
-          <option value="graficos_medicamentos_sjc.html">Medicamentos</option>
-          <option value="graficos_internacoes_sjc.html">Internações</option>
-        </select>
-      </div>    
+      <select id="municipio" onchange="window.location.href = this.value;">
+        <option selected disabled value="">Selecione a categoria</option>
+        <option value="graficos_consultas_sjc">Consultas</option>
+        <option value="graficos_medicamentos_sjc">Medicamentos</option>
+        <option value="graficos_internacoes_sjc">Internações</option>
+        <option value="graficos_gastos_sjc">Gastos</option>
+      </select>
+    </div>  
 
     <div class="cidade">
         <h2>São José Dos Campos</h2>

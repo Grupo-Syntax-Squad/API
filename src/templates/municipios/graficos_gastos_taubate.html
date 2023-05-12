@@ -1,16 +1,16 @@
 {% extends 'base.html' %}
 
 {% block title %}
-    <title>Gráficos - Jacareí</title>
+    <title>Gráficos - Taubaté</title>
 {% endblock %}
 
 {% block body %}
-    <h1>Jacareí - Covid longa</h1>
+    <h1>Taubaté - Covid longa</h1>
     <hr>
 
     <div class="campo">
       <select id="municipio" onchange="window.location.href = this.value;">
-        <option selected disabled value="">Jacareí</option>
+        <option selected disabled value="">Tabuaté</option>
         <option value="acessosjc">São José Dos Campos</option>
         <option value="acessotaubate">Taubaté</option>
         <option value="acessojacarei">Jacareí</option>
@@ -21,16 +21,15 @@
 
     <div class="campo">
       <select id="municipio" onchange="window.location.href = this.value;">
-        <option selected disabled value="">Medicamentos</option>
-        <option value="graficos_consultas_jacarei">Consultas</option>
-        <option value="graficos_medicamentos_jacarei">Medicamentos</option>
-        <option value="graficos_internacoes_jacarei">Internações</option>
-        <option value="graficos_gastos_jacarei">Gastos</option>
+        <option selected disabled value="">Gastos</option>
+        <option value="graficos_consultas_taubate">Consultas</option>
+        <option value="graficos_medicamentos_taubate">Medicamentos</option>
+        <option value="graficos_internacoes_taubate">Internações</option>
+        <option value="graficos_gastos_taubate">Gastos</option>
       </select>
     </div><br>
-
     <div class="alinhar">
-      <img src="../../static/graficos_medicamentos/total_gastos_medicamentos_jacarei.png" alt="Total de gastos com medicamentos - Jacareí">
+        <img src="../../static/graficos_gastos/5_maiores_gastos_taubate.png" alt="Os 5 maiores gastos por ano em Taubaté">
     </div>
 {% endblock %}
 
