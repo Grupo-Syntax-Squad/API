@@ -27,6 +27,6 @@ fig = px.bar(df, text_auto=True, barmode="group", width=700, height=600, title="
 
 fig.update_layout(showlegend=False)
 fig.update_layout(title_x=0.5)
-fig.write_image(f"C:/Users/Wellington/Documents/GitHub/API/Dados/Dados de gastos/Taubate/GráficoGastosporAnoTaubate.svg")
+fig.write_image(f"src/Gráficos/Gastos/Taubate/GráficoGastosporAnoTaubate.svg")
 
 fig.show()
