@@ -22,7 +22,7 @@ for ano in ANOS:
     valores = []
     for c in range(12):
         try:
-            with open(f'src/Gráficos/Gastos/SJC/Gastos{ano}/{c+1}-{ano}.csv') as arquivo:
+            with open(f'src/Gráficos e Raspagem de Dados/Gastos/SJC/Gastos{ano}/{c+1}-{ano}.csv') as arquivo:
                 for n in arquivo.read().split(';'):
                     valores.append(n)
         except:
@@ -60,6 +60,6 @@ fig = px.bar(df, text_auto=True, barmode="group", width=700, height=600, title="
 fig.update_layout(showlegend=False)
 fig.update_layout(title_x=0.5)
 
-fig.write_image(f"src/Gráficos/Gastos/SJC/GráficoGastosporAnoSJC.svg")
+fig.write_image(f"src/Gráficos e Raspagem de Dados/Gastos/SJC/GráficoGastosporAnoSJC.svg")
 
 fig.show()

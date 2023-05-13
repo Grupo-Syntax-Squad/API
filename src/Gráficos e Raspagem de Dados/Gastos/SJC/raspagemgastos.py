@@ -7,10 +7,10 @@ import os
 driver = webdriver.Chrome(ChromeDriverManager().install())
 
 meses = ['Janeiro', 'Fevereiro', 'Março', 'Abril', 'Maio', 'Junho', 'Julho', 'Agosto', 'Setembro', 'Outubro', 'Novembro', 'Dezembro']
-anos = ['2022']
+anos = ['2019', '2020', '2021', '2022']
 
 for ano in anos:
-    pasta = f"src/Gráficos/Gastos/SJC/Gastos{ano}"
+    pasta = f"src/Gráficos e Raspagem de Dados/Gastos/SJC/Gastos{ano}"
 
     # Vê se a pasta do respectivo ano existe
     if not os.path.exists(pasta):
@@ -38,8 +38,8 @@ for ano in anos:
         except:
             pass
     
-    for c in range(12):
+"""    for c in range(12):
         if c == 0:
-            os.replace('Downloads/despesa_funcao.csv', f'src/Gráficos/Gastos/SJC/Gastos{ano}/despesa_funcao.csv')
+            os.replace('Downloads/despesa_funcao.csv', f'src/Gráficos e Raspagem de Dados/Gastos/SJC/Gastos{ano}/despesa_funcao.csv')
         else:
-            os.replace(f'Downloads/despesa_funcao ({c}).csv', f'src/Gráficos/Gastos/SJC/Gastos{ano}/despesa_funcao ({c}).csv')
+            os.replace(f'Downloads/despesa_funcao ({c}).csv', f'src/Gráficos e Raspagem de Dados/Gastos/SJC/Gastos{ano}/despesa_funcao ({c}).csv')"""

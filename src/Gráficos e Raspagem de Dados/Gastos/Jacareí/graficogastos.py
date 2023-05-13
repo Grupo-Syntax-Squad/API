@@ -9,7 +9,7 @@ valoresanos = []
 
 for ano in ANOS:
     valores = []
-    df = pd.read_csv(f'src/Gráficos/Gastos/Aparecida/Gastos{ano}/detalhamentoDespesas{ano}.csv', sep=';')
+    df = pd.read_csv(f'C:/Users/Wellington/Documents/GitHub/API/src/Gráficos e Raspagem de Dados/Gastos/Jacareí/Gastos{ano}/detalhamentoDespesas{ano}.csv', sep=';') 
     total = df.sort_values('vl_total_pag')
     total.reset_index(drop=True, inplace=True)
     for valor in total['vl_total_pag'][-5:]:
@@ -20,7 +20,7 @@ for ano in ANOS:
 
 valoresanos = pd.DataFrame(valoresanos, index=ANOS)
 
-fig = px.bar(valoresanos, text_auto=True, barmode="group", width=700, height=600, title="5 maiores gastos por ano de Aparecida", labels={
+fig = px.bar(valoresanos, text_auto=True, barmode="group", width=700, height=600, title="5 maiores gastos por ano de Jacareí", labels={
                      "value": "Gastos (R$)",
                      "index": "Anos"
                  })
@@ -30,4 +30,4 @@ fig.update_traces(textposition="inside")
 
 fig.show()
 
-fig.write_image('src/Gráficos/Gastos/Aparecida/GráficoGastosporAnoAparecida.svg')
+fig.write_image('C:/Users/Wellington/Documents/GitHub/API/src/Gráficos e Raspagem de Dados/Gastos/Jacareí/GráficoGastosporAnoJacarei.svg')
