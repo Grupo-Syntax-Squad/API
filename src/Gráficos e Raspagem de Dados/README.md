@@ -8,7 +8,7 @@ A raspagem de dados foi realizada utilizando a biblioteca Selenium que permite a
 
 ## **Scripts em que a raspagem de dados foi realizada**
 
-- [Script para raspagem dos dados de gastos gerais de São José dos Campos](https://github.com/src/Gráficos%20e%20Raspagem%20de%20Dados/Gastos/SJC/raspagemgastos.py).
+- [Script para raspagem dos dados de gastos gerais de São José dos Campos](https://github.com/GRUPOAPIDSM2023/API/blob/main/src/Gr%C3%A1ficos%20e%20Raspagem%20de%20Dados/Gastos/SJC/raspagemgastos.py).
 
 ## **Executando os Scripts de raspagem**
 
@@ -43,12 +43,12 @@ Os gráficos foram feitos utilizando a biblioteca Plotly para confecção de gr�
 
 ## **Scripts que foram usados para fazer os gráficos**
 
-- [Script para confecção do gráfico dos 5 maiores gastos de Aparecida](https://github.com/src/Gráficos%20e%20Raspagem%20de%20Dados/Gastos/Aparecida/graficogastos.py).
+- [Script para confecção do gráfico dos 5 maiores gastos de Aparecida](https://github.com/GRUPOAPIDSM2023/API/blob/main/src/Gr%C3%A1ficos%20e%20Raspagem%20de%20Dados/Gastos/Aparecida/graficogastos.py).
 
-- [Script para confecção do gráfico dos 5 maiores gastos de Caçapava](https://github.com/src/Gráficos%20e%20Raspagem%20de%20Dados/Gastos/Caçapava/graficogastos.py).
+- [Script para confecção do gráfico dos 5 maiores gastos de Caçapava](https://github.com/GRUPOAPIDSM2023/API/blob/main/src/Gr%C3%A1ficos%20e%20Raspagem%20de%20Dados/Gastos/Ca%C3%A7apava/graficogastos.py).
 
-- [Script para confecção do gráfico dos 5 maiores gastos de Jacareí](https://github.com/src/Gráficos%20e%20Raspagem%20de%20Dados/Gastos/Jacareí/graficogastos.py).
+- [Script para confecção do gráfico dos 5 maiores gastos de Jacareí](https://github.com/GRUPOAPIDSM2023/API/blob/main/src/Gr%C3%A1ficos%20e%20Raspagem%20de%20Dados/Gastos/Jacare%C3%AD/graficogastos.py).
 
-- [Script para confecção do gráfico dos 5 maiores gastos de São José dos Campos](https://github.com/src/Gráficos%20e%20Raspagem%20de%20Dados/Gastos/SJC/graficogastos.py).
+- [Script para confecção do gráfico dos 5 maiores gastos de São José dos Campos](https://github.com/GRUPOAPIDSM2023/API/blob/main/src/Gr%C3%A1ficos%20e%20Raspagem%20de%20Dados/Gastos/SJC/graficogastos.py).
 
-- [Script para confecção do gráfico dos 5 maiores gastos de Taubaté](https://github.com/src/Gráficos%20e%20Raspagem%20de%20Dados/Gastos/Taubaté/graficogastos.py).
+- [Script para confecção do gráfico dos 5 maiores gastos de Taubaté](https://github.com/GRUPOAPIDSM2023/API/blob/main/src/Gr%C3%A1ficos%20e%20Raspagem%20de%20Dados/Gastos/Taubat%C3%A9/graficogastos.py).
