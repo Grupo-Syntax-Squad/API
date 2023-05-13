@@ -16,8 +16,9 @@ A raspagem de dados foi realizada utilizando a biblioteca Selenium que permite a
 
 Caso deseje utilizar um ambiente virtual para instalar as bibliotecas no mesmo digite os seguintes comandos no terminal:
 
-    cd .\src\ | python -m venv venv
-    .\venv\Scripts\activate
+```bash
+cd ./src/ | python -m venv venv | ./venv/Scripts/activate
+```
 
 ### **Instalando as bibliotecas necessárias**
 
@@ -25,13 +26,17 @@ Para rodar os scripts de raspagem é necessário instalar as bibliotecas que rea
 
 Para isso abra o terminal e digite o seguinte comando:
 
-    cd '.\src\Gráficos e Raspagem de Dados\' | pip install -r .\requirements.txt
+```bash
+cd '.\src\Gráficos e Raspagem de Dados\' | pip install -r ./requirements.txt
+```
 
 ### **Executar o Script de raspagem**
 
 Após ter instalado as bibliotecas necessárias apenas execute o Script que tenha raspagem.
 
-    python caminho/do/arquivo/script_raspagem.py
+```bash
+python caminho/do/arquivo/script_raspagem.py
+```
 
 ---
 
