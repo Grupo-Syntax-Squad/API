@@ -4,6 +4,10 @@
 
 A raspagem de dados foi realizada utilizando a biblioteca Selenium que permite automatizar ações e coletar informações através dos navegadores suportados pela biblioteca.
 
+Vídeo demonstrativo da raspagem de gastos gerais de São José dos Campos:
+
+https://github.com/GRUPOAPIDSM2023/API/assets/91472871/9c41b1c0-9a4c-4c4e-a346-9ac1cb232d17
+
 **O navegador utilizado foi o [Chrome](https://www.google.com/intl/pt-BR/chrome/).**
 
 ## **Scripts em que a raspagem de dados foi realizada**
