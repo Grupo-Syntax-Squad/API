@@ -45,7 +45,8 @@ Dessa forma, com as Tarefas já traçadas, definimos a quantidade de tempo neces
 <br>
 
 1. Wireframe: [Protótipo navegável](https://www.figma.com/proto/Ox8KcNvkylAJDsWbpvBEIQ/COVID-longa?node-id=7-18&scaling=min-zoom&page-id=0%3A1&starting-point-node-id=7%3A18)
-2. Web Site: ([Versão Inicial](src/))
+2. Web Site: [Versão atual](src/)
+3. Web Site: [Raspagem de Dados](https://github.com/GRUPOAPIDSM2023/API/tree/main/src/Gráficos%20e%20Raspagem%20de%20Dados)
 
       
 <br> 
@@ -56,7 +57,7 @@ Dessa forma, com as Tarefas já traçadas, definimos a quantidade de tempo neces
 
 ### Sprint - 2️⃣ 🎯 ([Clique aqui](/documents/Sprints/Sprint2)):  Concluído✅
 
-### Sprint - 3️⃣ 🎯 :  Em construção🚧
+### Sprint - 3️⃣ 🎯 ([Clique aqui](/documents/Sprints/Sprint3)):  Concluído✅
 
 ### Sprint - 4️⃣ 🎯 :  Em construção🚧
 
@@ -72,10 +73,10 @@ Dessa forma, com as Tarefas já traçadas, definimos a quantidade de tempo neces
 | Tela de Acesso                                           | 2      | Médio               | #04 | 02h | ✅  |  23/04            |
 | Tela Quem somos                                          | 2      | Baixa               | #05 | 02h | ✅  |  23/04            |
 | Definição de filtros                                     | 2      | Baixa               | #06 | 02h | ✅  |  23/04            |
-| Visualização de Gráficos                                 | 3      | Alta                | #07 | 05h | 🚧  |  14/05            |
-| Raspagem de dados                                        | 3      | Médio               | #08 | 06h | 🚧  |  14/05            |
-| Menu de Navegação                                        | 3      | Alta                | #09 | 04h | 🚧  |  14/05            |
-| Integração dos Gráficos ao site                          | 3      | Médio               | #10 | 04h | 🚧  |  14/05            |
+| Visualização de Gráficos                                 | 3      | Alta                | #07 | 05h | ✅  |  14/05            |
+| Raspagem de dados                                        | 3      | Médio               | #08 | 06h | ✅  |  14/05            |
+| Menu de Navegação                                        | 3      | Alta                | #09 | 04h | ✅  |  14/05            |
+| Integração dos Gráficos ao site                          | 3      | Médio               | #10 | 04h | ✅  |  14/05            |
 | Formatação do Site e Estilização                         | 4      | Média               | #11 | 04h | 🚧  |  04/06            |
 | Testes                                                   | 4      | Média               | #12 | 05h | 🚧  |  04/06            |
 | README                                                   | 4      | Baixa               | #13 | 02h | 🚧  |  04/06            |
