@@ -49,7 +49,11 @@ Para encerrar o uso do site e sair do ambiente virtual vá ao seu terminal, (ond
 deactivate
 ```
 
-## Vídeo do Site Funcionando (Versão Inicial):
+## Vídeo Demonstrativo do Site Funcionando (Versão Atual):
 > O vídeo abaixo é um exemplo do site em funcionamento.
 
-https://user-images.githubusercontent.com/125401155/234884007-eeadcb81-0498-4b9b-b451-9a4c2841eabb.mp4
+
+
+https://github.com/GRUPOAPIDSM2023/API/assets/125401155/af9d359d-d948-475b-8054-29a1184abea2
+
+
