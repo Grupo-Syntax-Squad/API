@@ -1,11 +1,15 @@
 ## Sprint - 3️⃣ 🎯
-Nesta Sprint foi realizada uma raspagem e coleta de daods sobre a COVID longa. Ademais, foram gerados mais gráficos com os dados obtidos. OBS: os filtros utilizados na raspagem foram acordados com o cliente na [Sprint2(/documents/Sprints/Sprint2)] 
-<br>
-</br>
+Nesta Sprint foi realizada uma raspagem e coleta de daods sobre a COVID longa. Ademais, foram gerados mais gráficos com os dados obtidos. 
+
+**OBS:** os filtros utilizados na raspagem foram acordados com o cliente na [Sprint2](/documents/Sprints/Sprint2)
+> [Lista de sites utilizados na raspagem](https://github.com/GRUPOAPIDSM2023/API/blob/main/Dados/Lista%20Sites)
 
 ## Vídeo Demonstrativo da Raspagem de Dados:
+  
+  https://github.com/GRUPOAPIDSM2023/API/assets/91472871/9c41b1c0-9a4c-4c4e-a346-9ac1cb232d17
 
-aqui vai o vídeo
+
+> Para saber mais sobre o processo de raspagem [clique aqui](https://github.com/GRUPOAPIDSM2023/API/tree/main/src/Gráficos%20e%20Raspagem%20de%20Dados).
 
 <hr>
 
@@ -23,11 +27,11 @@ aqui vai o vídeo
 
 | ID US | Sprint | US                                                                                                                                                                                                                                           | ID Requisito          |
 |:-------:|:--------:|:----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------:|:-----------------------:|
-| US01  | 3      | "Eu, como desenvolvedor, quero criar a primeira versão do site: "DATA-SARS" que atenda o modelo do Wireframe, para que o jornalista tenha seu sistema ."                                                |  #03                  |
-| US02  | 3      | "Eu, como desenvolvedor, quero inicialmente desenvolver o site utilizando Flask e HTML, priorizando os elementos e analizando menos a estilização."|  #03                  |
-| US03  | 3      | "Eu, como jornalista, quero poder acessar o Site Inicial, para validar minhas expectativas."                                                                                         |  #03                  |
-| US04  | 3      | "Eu, como desenvolvedor, quero adicionar ao site a aba "Acesso" em que seja possível ter uma visão geral do projeto, cidades e demais páginas."                                                       |  #04                  |
-| US05  | 3      | "Eu, como desenvolvedor, quero que a aba de Acesso, leve para demais navegações no site e que ela seja intuitiva e de fácil acesso, para assegurar a facilidade do uso do DATA-SARS."                                                                                                                                      |  #04                  |
-| US06  | 3      | "Eu, como desenvolvedor, quero criar uma aba "Quem Somos" onde as informações dos integrantes e da equipe, assim como seuas redes socias e meios de contato estejam inseridas."                                                                                        |  #05                  |
-| US07  | 3      | "Eu, como jornalista, quero acessar a aba "Quem Somos" para conhecer os autores, o projeto, equipe e manter os direitos autorais."                                                                                                                           |  #05                  |
-| US08  | 3     | "Eu, como desenvolvedor, quero definir filtros para a raspagem de dados, em que, os filtros relacionem os sites, dados que devem ser analisados e o período, para poder começar o processo de raspagem de dados."                                                                                                                           |  #06                  |
+| US01  | 3      | "Eu, como usuário, desejo poder visualizar os gráficos de Sintomas, procedimentos, medicamentos e Tratamentos no período de pré, durante e pós pandemia de cada cidade."                                                |  #07                  |
+| US02  | 3      | "Eu, como usuário, quero que na página de cada cidade haja algum tipo de botão ou link que me leve à documentação do projeto, em que seja possível verificar à fonte no qual os gráficos foram gerados."           |  #07                  |
+| US03  | 3      | "Eu, como desenvolvedor, quero que os gráficos desejados pelo cliente sejam no formato "barra" e que sua categoria seja, de preferência, anual."                                                                          |  #07                  |
+| US04  | 3      | "Eu, como desenvolvedor, quero criar na página inicial de cada cidade, um menu de navegação para acessar a visualização dos gráficos especifícos."                                                            |  #08                  |
+| US05  | 3      | "Eu, como desenvolvedor quero criar um menu de navegação nomeado: "Acesso" que leve à página de seleção de cidades e quero que o menu home, leve à página introdutória do projeto."                                                                                                                                                                                                          |  #08                  |
+| US06  | 3      | "Eu, como desenvolvedor, desejo acessar sites como: Tabnet, sites governamentais, sites de institutos, para extrair dados através de uma raspagem de dados, utilizando os filtros da Sprint anterior."            |  #09                  |
+| US07  | 3      | "Eu, como desenvolvedor, desejo salvar as referências que estou utlizando na raspagem de dados e guarda-las na documentação, em que, seja possível o usuário acessa-las."                                          |  #09                  |
+
