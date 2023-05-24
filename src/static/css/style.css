@@ -94,6 +94,14 @@ h2, p {
   height: 410px
 }
 
+.mapa2-img {
+  position:absolute;
+  top: 230px;
+  left: 730px; 
+  width: 613px;
+  height: 375px
+}
+
 .index-img{
   position:absolute;
   top: 220px;

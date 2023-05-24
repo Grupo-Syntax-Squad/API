@@ -18,12 +18,71 @@
         </select>
       </div>
 
-    <img src="../static/mapas/mapavale.jpg" alt="mapa" class="mapa-img">
+      <map name="mapa">
+        <area id="aparecida" shape="rect" coords="298,132,348,182" href="acessoaparecida" alt="Aparecida">
+        <area id="cacapava" shape="rect" coords="132,179,182,229" href="acessocacapava" alt="Caçapava">
+        <area id="jacarei" shape="rect" coords="43,241,93,291" href="acessojacarei" alt="Jacareí">
+        <area id="sjc" shape="rect" coords="52,127,102,177" href="acessosjc" alt="São José dos Campos">
+        <area id="taubate" shape="rect" coords="162,172,212,222" href="acessotaubate" alt="Taubaté">
+      </map>
+
+    <img id ='mapa' src="../static/mapas/mapavale.jpg" alt="mapa" class="mapa-img" usemap="#mapa">
+
     <div class="legenda">
         <div class="p-mapa">
             <p>Selecione o município que deseja visualizar</p>
         </div>
     </div>
+    <div id="imagemArea"></div>
+    <script>
+
+        const aparecidaArea = document.getElementById("aparecida");
+        const imagemaparecida = document.getElementById("imagemArea");
+        aparecidaArea.addEventListener("mouseover", function() {
+        imagemaparecida.innerHTML = '<img src="../static/mapas/aparecida.jpg" alt="Area - Aparecida" class="mapa2-img">';
+        });
+        aparecidaArea.addEventListener("mouseleave", function() {
+        imagemaparecida.innerHTML = '';
+        });
+
+        const caçapavaArea = document.getElementById("cacapava");
+        const imagemcaçapava = document.getElementById("imagemArea");
+        caçapavaArea.addEventListener("mouseover", function() {
+        imagemcaçapava.innerHTML = '<img src="../static/mapas/caçapava.jpg" alt="Area - Caçapava" class="mapa2-img">';
+        });
+        caçapavaArea.addEventListener("mouseleave", function() {
+        imagemcaçapava.innerHTML = '';
+        });
+
+        const jacareiArea = document.getElementById("jacarei");
+        const imagemjacarei = document.getElementById("imagemArea");
+        jacareiArea.addEventListener("mouseover", function() {
+        imagemjacarei.innerHTML = '<img src="../static/mapas/jacarei.jpg" alt="Area - Jacareí" class="mapa2-img">';
+        });
+        jacareiArea.addEventListener("mouseleave", function() {
+        imagemjacarei.innerHTML = '';
+        });
+
+        const sjcArea = document.getElementById("sjc");
+        const imagemsjc = document.getElementById("imagemArea");
+        sjcArea.addEventListener("mouseover", function() {
+        imagemsjc.innerHTML = '<img src="../static/mapas/saojose.jpg" alt="Area - São José Dos Campos" class="mapa2-img">';
+        });
+        sjcArea.addEventListener("mouseleave", function() {
+        imagemsjc.innerHTML = '';
+        });
+
+        const taubateArea = document.getElementById("taubate");
+        const imagemtaubate = document.getElementById("imagemArea");
+        taubateArea.addEventListener("mouseover", function() {
+        imagemtaubate.innerHTML = '<img src="../static/mapas/taubate.jpg" alt="Area - Taubaté" class="mapa2-img">';
+        });
+        taubateArea.addEventListener("mouseleave", function() {
+        imagemtaubate.innerHTML = '';
+        });
+
+    </script>
+
 {% endblock %}
 
 {% block footer %}
