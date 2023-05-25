@@ -7,7 +7,7 @@ header {
 
 #logo {
     width: 350px;
-    height: 100px
+    height: 100px;
 } 
 
 nav {
@@ -34,10 +34,13 @@ nav button {
   cursor:pointer
 }
 
+#bem-vindo{
+  margin-left: 15%;
+}
+
 .continuar {
-  position: absolute;
-  top: 400px;
-  left: 550px
+  margin-top: 10%;
+  margin-left: 47%;
 }
 
 .continuar button{
@@ -103,11 +106,19 @@ h2, p {
 }
 
 .index-img{
-  position:absolute;
-  top: 220px;
+  position: absolute;
+  top: 25%;
   left: 60%; 
-  width: 500px;
-  height: 290px;
+  width: 40vw;
+  height: 40vh;
+}
+
+.texto-introducao {
+  width: 60vw;
+}
+
+.introducao > p {
+  position: relative;
 }
 
 .vale {
