@@ -28,13 +28,36 @@
         <option value="graficos_gastos_taubate">Gastos</option>
       </select>
     </div><br>
+    {% for cap in dados %}
+      <div>
+        <canvas id="myChart{{ dados.index(cap) }}"></canvas>
+      </div>
+    {% endfor %}
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+    <script>
+      {% for cap in dados %}
+      const ctx{{ dados.index(cap) }} = document.getElementById('myChart{{ dados.index(cap) }}');
 
-    <div class="alinhar">
-      <img src="../../static/graficos_internacoes/Casos de Internações_Doenças do aparelho circulatório-TAUBATE.png" alt="Casos de Internações - Doenças do aparelho circulatório - Taubaté">
-      <img src="../../static/graficos_internacoes/Casos de Internações_Doenças do aparelho digestivo-TAUBATE.png" alt="Casos de Internações - Doenças do aparelho digestivo - Taubaté">
-      <img src="../../static/graficos_internacoes/Casos de Internações_Doenças do aparelho respiratório-TAUBATE.png" alt="Casos de Internações - Doenças do aparelho respiratório - Taubaté">
-      <img src="../../static/graficos_internacoes/Casos de Internações_Doenças do sistema nervoso-TAUBATE.png" alt="Casos de Internações - Doenças do sistema nervoso - Taubaté">
-    </div>
+      new Chart(ctx{{ dados.index(cap) }}, {
+      type: 'bar',
+      data: {
+          labels: {{ cap[1] }},
+          datasets: [{
+          label: "{{ cap[0] }}",
+          data: {{ cap[2] }},
+          borderWidth: 1
+          }]
+      },
+      options: {
+          scales: {
+          y: {
+              beginAtZero: true
+          }
+          }
+      }
+      });
+      {% endfor %}
+    </script>
 {% endblock %}
 
 {% block footer %}

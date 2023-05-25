@@ -1,5 +1,7 @@
-
+from graficos_js import dados_internacoes
 from flask import Flask, render_template
+
+DADOS_INTERNACOES = dados_internacoes()
 
 app = Flask(__name__)
 
@@ -37,23 +39,28 @@ def acessotaubate():
 
 @app.route("/graficos_internacoes_sjc")
 def graficos_internacoes_sjc():
-  return render_template('/municipios/graficos_internacoes_sjc.html')
+  DADOS = DADOS_INTERNACOES["SJC"]
+  return render_template('/municipios/graficos_internacoes_sjc.html', dados=DADOS)
 
 @app.route("/graficos_internacoes_aparecida")
 def graficos_internacoes_aparecida():
-  return render_template('/municipios/graficos_internacoes_aparecida.html')
+  DADOS = DADOS_INTERNACOES["APARECIDA"]
+  return render_template('/municipios/graficos_internacoes_aparecida.html', dados=DADOS)
 
 @app.route("/graficos_internacoes_cacapava")
 def graficos_internacoes_cacapava():
-  return render_template('/municipios/graficos_internacoes_cacapava.html')
+  DADOS = DADOS_INTERNACOES["CACAPAVA"]
+  return render_template('/municipios/graficos_internacoes_cacapava.html', dados=DADOS)
 
 @app.route("/graficos_internacoes_jacarei")
 def graficos_internacoes_jacarei():
-  return render_template('/municipios/graficos_internacoes_jacarei.html')
+  DADOS = DADOS_INTERNACOES["JACAREI"]
+  return render_template('/municipios/graficos_internacoes_jacarei.html', dados=DADOS)
 
 @app.route("/graficos_internacoes_taubate")
 def graficos_internacoes_taubate():
-  return render_template('/municipios/graficos_internacoes_taubate.html')
+  DADOS = DADOS_INTERNACOES["TAUBATE"]
+  return render_template('/municipios/graficos_internacoes_taubate.html', dados=DADOS)
 
 @app.route("/graficos_consultas_taubate")
 def graficos_consultas_taubate():
