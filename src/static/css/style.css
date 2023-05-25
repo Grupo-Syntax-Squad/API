@@ -99,15 +99,15 @@ h2, p {
   top: 230px;
   left: 730px; 
   width: 613px;
-  height: 375px
+  height: 375px;
 }
 
 .index-img{
   position:absolute;
   top: 220px;
-  left: 830px; 
+  left: 60%; 
   width: 500px;
-  height: 290px
+  height: 290px;
 }
 
 .vale {
