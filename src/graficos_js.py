@@ -1,4 +1,5 @@
 import pandas as pd
+import os
 from pprint import pprint
 
 CAPS = ['Cap 06', 'Cap 09', 'Cap 10', 'Cap 11']
@@ -15,7 +16,7 @@ def dados_internacoes():
             dados = []
             ANOSG = []
             for ano in ANOS:
-                df = pd.read_csv(f"C:/Users/Fatec/Documents/GitHub/API/src/Gráficos e Raspagem de Dados/.Tabelas Internações/dados cid10 {ano}.csv", sep=";", encoding="utf-8")
+                df = pd.read_csv(f"{os.getcwd()}/Gráficos e Raspagem de Dados/.Tabelas Internações/dados cid10 {ano}.csv", sep=";", encoding="utf-8")
                 cidadedados = df.loc[df['Munic�pio'] == cidade]
                 dados.append(cidadedados.loc[CIDADES.index(cidade), cap])
                 ANOSG.append(ano)
@@ -23,6 +24,3 @@ def dados_internacoes():
                     dados_city.append([cap, ANOSG, dados])
                 dados_internacoes[CIDADESNOME[CIDADES.index(cidade)]] = dados_city
     return dados_internacoes
-
-
-print(dados_internacoes())
