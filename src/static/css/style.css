@@ -57,6 +57,9 @@ nav button {
     cursor: pointer
 }
 
+.mapa-acesso > svg {
+  margin-left: 20%;
+}
 
 .link-grafico button{
   margin-top: 20px;
