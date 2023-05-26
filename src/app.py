@@ -1,4 +1,4 @@
-from graficos_js import dados_internacoes
+from graficosSintomas_js import dados_internacoes
 from flask import Flask, render_template
 
 DADOS_INTERNACOES = dados_internacoes()
