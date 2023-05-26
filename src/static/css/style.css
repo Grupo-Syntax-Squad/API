@@ -288,3 +288,15 @@ hr{
   width: 640px;
   height: 390px
 }
+
+@media screen and (max-width: 500px ) {
+  .introducao{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+  }
+
+  .texto-introducao {
+    display: flex;
+  }
+}
