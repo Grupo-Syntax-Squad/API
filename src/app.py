@@ -1,7 +1,9 @@
 from graficosSintomas_js import dados_internacoes
+from graficosGastos_js import maioresgastos
 from flask import Flask, render_template
 
 DADOS_INTERNACOES = dados_internacoes()
+DADOS_GASTOS = maioresgastos()
 
 app = Flask(__name__)
 
@@ -104,23 +106,28 @@ def graficos_medicamentos_sjc():
 
 @app.route("/graficos_gastos_sjc")
 def graficos_gastos_sjc():
-  return render_template('/municipios/graficos_gastos_sjc.html')
+  GASTOS = DADOS_GASTOS['SJC']
+  return render_template('/municipios/graficos_gastos_sjc.html', gastos=GASTOS)
 
 @app.route("/graficos_gastos_aparecida")
 def graficos_gastos_aparecida():
-  return render_template('/municipios/graficos_gastos_aparecida.html')
+  GASTOS = DADOS_GASTOS['Aparecida']
+  return render_template('/municipios/graficos_gastos_aparecida.html', gastos=GASTOS)
 
 @app.route("/graficos_gastos_taubate")
 def graficos_gastos_taubate():
-  return render_template('/municipios/graficos_gastos_taubate.html')
+  GASTOS = DADOS_GASTOS['Taubaté']
+  return render_template('/municipios/graficos_gastos_taubate.html', gastos=GASTOS)
 
 @app.route("/graficos_gastos_jacarei")
 def graficos_gastos_jacarei():
-  return render_template('/municipios/graficos_gastos_jacarei.html')
+  GASTOS = DADOS_GASTOS['Jacareí']
+  return render_template('/municipios/graficos_gastos_jacarei.html', gastos=GASTOS)
 
 @app.route("/graficos_gastos_cacapava")
 def graficos_gastos_cacapava():
-  return render_template('/municipios/graficos_gastos_cacapava.html')
+  GASTOS = DADOS_GASTOS['Caçapava']
+  return render_template('/municipios/graficos_gastos_cacapava.html', gastos=GASTOS)
 
 @app.route("/quemsomos")
 def quemsomos():
