@@ -289,7 +289,7 @@ hr{
   height: 390px
 }
 
-@media screen and (max-width: 500px ) {
+@media screen and (max-width: 500px) {
   .introducao{
     display: flex;
     flex-wrap: wrap;
@@ -299,4 +299,38 @@ hr{
   .texto-introducao {
     display: flex;
   }
+
+  .github {
+    display: flex;
+    top: 80.98639455782313vh;
+    left: 53.440702781844806vw; 
+    width: 8vw;
+    height: 6.802721088435374vh
+    }
+    
+  .sobrenos {
+    font-size: 15px;
+    width: 50%;
+  }
+
+  .sintax-img {
+    position:absolute;
+    top: 35.2vh;
+    left: 53.440702781844806vw; 
+    width: 32.94289897510981vw;
+    height: 49.6vh
+  }
+
+  .gitlink {
+    text-decoration: none;
+    color: black;
+    position:absolute;
+    top: 90.1360544217687vh;
+    left: 155vw
+  }
+  
+
+  
+    
+    
 }
