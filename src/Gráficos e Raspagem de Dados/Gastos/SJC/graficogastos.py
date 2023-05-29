@@ -1,6 +1,6 @@
 import pandas as pd
-from pprint import pprint
 import plotly.express as px
+import os
 
 ANOS = ['2019', '2020', '2021', '2022']
 valores = []
@@ -22,7 +22,7 @@ for ano in ANOS:
     valores = []
     for c in range(12):
         try:
-            with open(f'src/Gráficos e Raspagem de Dados/Gastos/SJC/Gastos{ano}/{c+1}-{ano}.csv') as arquivo:
+            with open(f'{os.getcwd()}/Gastos{ano}/{c+1}-{ano}.csv') as arquivo:
                 for n in arquivo.read().split(';'):
                     valores.append(n)
         except:
@@ -44,11 +44,14 @@ for ano in valoresanos:
             pass
     valoresanos2.append(sorted(valores, reverse=True)[:5])
     somaanos.append(soma)
-    print(ANOS[c], soma)
     c += 1
 
-pprint(somaanos)
-pprint(valoresanos2)
+if os.path.exists(f"5maioresgastos.csv"):
+    os.remove(f"5maioresgastos.csv")
+
+with open("5maioresgastos.csv", "a") as arquivo:
+    for ano in valoresanos2:
+        arquivo.write(f"{ano}\n")
 
 df = pd.DataFrame(valoresanos2, index=ANOS)
 
@@ -60,6 +63,6 @@ fig = px.bar(df, text_auto=True, barmode="group", width=700, height=600, title="
 fig.update_layout(showlegend=False)
 fig.update_layout(title_x=0.5)
 
-fig.write_image(f"src/Gráficos e Raspagem de Dados/Gastos/SJC/GráficoGastosporAnoSJC.svg")
+fig.write_image(f"{os.getcwd()}/GráficoGastosporAnoSJC.svg")
 
 fig.show()
