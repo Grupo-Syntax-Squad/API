@@ -9,14 +9,19 @@ valoresanos = []
 
 for ano in ANOS:
     valores = []
-    df = pd.read_excel(f'C:/Users/Wellington/Documents/GitHub/API/src/Gráficos e Raspagem de Dados/Gastos/Caçapava/Gastos{ano}/{ano}.xlsx')
+    df = pd.read_excel(f'{os.getcwd()}/Gastos{ano}/{ano}.xlsx')
     total = df.sort_values('Quanto já foi realizado <br>(Empenhado ou Pago)')
     total.reset_index(drop=True, inplace=True)
     for valor in total['Quanto já foi realizado <br>(Empenhado ou Pago)'][-5:]:
         valores.append(valor)
-    print(ano)
-    print(sorted(valores, reverse=True))
     valoresanos.append(sorted(valores, reverse=True))
+
+if os.path.exists(f"5maioresgastos.csv"):
+    os.remove(f"5maioresgastos.csv")
+
+with open("5maioresgastos.csv", "a") as arquivo:
+    for ano in valoresanos:
+        arquivo.write(f"{ano}\n")
 
 valoresanos = pd.DataFrame(valoresanos, index=ANOS)
 
@@ -30,4 +35,4 @@ fig.update_traces(textposition="inside")
 
 fig.show()
 
-fig.write_image('C:/Users/Wellington/Documents/GitHub/API/src/Gráficos e Raspagem de Dados/Gastos/Caçapava/GráficoGastosporAnoCaçapava.svg')
+fig.write_image(f'{os.getcwd()}/GráficoGastosporAnoCaçapava.svg')

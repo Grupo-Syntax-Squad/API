@@ -1,4 +1,5 @@
 import pandas as pd
+import os
 import plotly.express as px
 from pprint import pprint
 
@@ -9,14 +10,19 @@ valoresanos = []
 
 for ano in ANOS:
     valores = []
-    df = pd.read_csv(f'C:/Users/Wellington/Documents/GitHub/API/src/Gráficos e Raspagem de Dados/Gastos/Jacareí/Gastos{ano}/detalhamentoDespesas{ano}.csv', sep=';') 
+    df = pd.read_csv(f'{os.getcwd()}/Gastos{ano}/detalhamentoDespesas{ano}.csv', sep=';') 
     total = df.sort_values('vl_total_pag')
     total.reset_index(drop=True, inplace=True)
     for valor in total['vl_total_pag'][-5:]:
         valores.append(valor)
-    print(ano)
-    print(sorted(valores, reverse=True))
     valoresanos.append(sorted(valores, reverse=True))
+
+if os.path.exists(f"5maioresgastos.csv"):
+    os.remove(f"5maioresgastos.csv")
+
+with open("5maioresgastos.csv", "a") as arquivo:
+    for ano in valoresanos:
+        arquivo.write(f"{ano}\n")
 
 valoresanos = pd.DataFrame(valoresanos, index=ANOS)
 
@@ -30,4 +36,4 @@ fig.update_traces(textposition="inside")
 
 fig.show()
 
-fig.write_image('C:/Users/Wellington/Documents/GitHub/API/src/Gráficos e Raspagem de Dados/Gastos/Jacareí/GráficoGastosporAnoJacarei.svg')
+fig.write_image(f'{os.getcwd()}/GráficoGastosporAnoJacarei.svg')
