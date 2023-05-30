@@ -29,9 +29,37 @@
       </select>
     </div><br>
 
-    <div class="alinhar">
-      <img src="../../static/graficos_medicamentos/total_gastos_medicamentos_jacarei.png" alt="Total de gastos com medicamentos - Jacareí">
+    <div class="gf">
+      <canvas id="myChart"></canvas>
     </div>
+    
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+    <script>
+    
+    const ctx = document.getElementById('myChart');
+    
+    new Chart(ctx, {
+    type: 'bar',
+    data: {
+        labels:  [2019,2020,2021,2022],
+        datasets: [{
+        label: "Total gasto com medicamentos",
+        data: [9276151.24,14695626.92,13989926.5,15458099.04],
+        borderWidth: 1
+        }]
+    },
+    options: {
+        responsive: true,
+        maintainAspectRatio: false,
+        scales: {
+        y: {
+            beginAtZero: true
+        }
+        }
+    }
+    });
+    
+    </script>
 {% endblock %}
 
 {% block footer %}
