@@ -293,7 +293,7 @@ hr{
 
 /* inicio index */
 
-  #bem-vindo {
+  .titulo-pagina {
     margin-left: 3%;
     text-align: left;
   }
@@ -331,35 +331,62 @@ hr{
   }
 /* fim do index */
 
-  .github {
+/* início acesso */
+
+.campo {
+  margin-top: 5vh;
+  margin-left: 13%;
+}
+
+.campo select {
+  height: 3vh;
+}
+
+.mapa-acesso {
+  display: flex;
+  height: 80%;
+  width: 180%;
+  margin-left: -35%;
+}
+
+/* fim acesso */
+
+
+/* inicio quem somos */
+  #github {
     display: flex;
-    top: 80.98639455782313vh;
-    left: 53.440702781844806vw; 
     width: 8vw;
-    height: 6.802721088435374vh
+    margin: 0% auto;
     }
     
   .sobrenos {
     font-size: 15px;
-    width: 50%;
+    width: 95%;
   }
 
-  .sintax-img {
-    position:absolute;
-    top: 35.2vh;
-    left: 53.440702781844806vw; 
-    width: 32.94289897510981vw;
-    height: 49.6vh
+  #sintax-img {
+    position: relative;
+    left: 5%; 
+    width: 50vw;
   }
 
   .gitlink {
+    text-align: center;
     text-decoration: none;
     color: black;
-    position:absolute;
-    top: 90.1360544217687vh;
-    left: 155vw
+    position: relative;
+    left: 1vw;
+    top: 1%;
+    margin-top: 0%;
   }
+
+  #git-grupo {
+    margin-top: 10%;
+    margin-bottom: 20%;
+  }
+/* fim quem somos */
   
+
 /* inicio footer */
   .footer {
     height: 28px;
