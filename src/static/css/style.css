@@ -34,9 +34,9 @@ nav button {
   cursor:pointer
 }
 
-#bem-vindo{
+/* #bem-vindo{
   margin-left: 15%;
-}
+} */
 
 .continuar {
   margin-top: 10%;
@@ -212,9 +212,6 @@ hr {
 .gitlink {
   text-decoration: none;
   color: black;
-  position:absolute;
-  top: 530px;
-  left: 775px
 }
 
 h1{
@@ -297,6 +294,38 @@ hr{
   margin-bottom: 8vh;
 }
 
+#sintax-img {
+  width: 25vw;
+  margin-right: 5%;
+}
+
+#sobrenos {
+  width: 40%;
+  margin-left: 5%;
+}
+
+#conteudo-sobre {
+  display: flex;
+}
+
+#imagem-grupo {
+  display: flex;
+  width: 8vw;
+  flex-direction: row-reverse;
+  margin-left: 45%;
+}
+
+#github {
+  height: 6vh;
+  margin-right: 1%;
+}
+
+#git-grupo {
+  display: flex;
+  margin-left: 70%;
+  margin-top: 2%;
+}
+
 @media screen and (max-width: 500px) {
 
 /* inicio index */
@@ -321,7 +350,7 @@ hr{
 
   .index-img {
     position: relative;
-    height: 100%;
+    height: 160%;
     left: 40%;
   }
 
@@ -336,6 +365,7 @@ hr{
     margin-top: 20%;
     width: 100%;
     margin-left: 35%;
+    margin-bottom: 15%;
   }
 /* fim do index */
 
@@ -367,7 +397,7 @@ hr{
     margin: 0% auto;
     }
     
-  .sobrenos {
+  #sobrenos {
     font-size: 15px;
     width: 95%;
   }
