@@ -29,10 +29,72 @@
       </select>
     </div><br>
 
-    <div class="alinhar">
-      <img src="../../static/graficos_consultas/consultas_taubaté.png" class="alinhar-consultas" alt="consultas_taubaté.png">
-      <img src="../../static/graficos_consultas/total_consultas_taubaté.png" class="alinhar-consultas" alt="total_consultas_taubaté.png">
+    <div class="gf">
+      <canvas id="myChart1"></canvas>
     </div>
+    
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+    <script>
+    
+    const ctx1 = document.getElementById('myChart1');
+    
+    new Chart(ctx1, {
+    type: 'bar',
+    data: {
+        labels:  [2020,2021,2022],
+        datasets: [{
+        label: "Total de consultas com sintomas gripais:",
+        data: [264,296,1032],
+        borderWidth: 1
+        }, {
+        label: "Total de consultas COVID-19",
+        data: [77,60,548],
+        borderWidth: 1
+        }]
+    },
+    options: {
+        responsive: true,
+        maintainAspectRatio: false,
+        scales: {
+        y: {
+            beginAtZero: true
+        }
+        }
+    }
+    });
+    </script>
+
+  <div class="gf">
+    <canvas id="myChart"></canvas>
+  </div>
+  
+  <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+  <script>
+  
+  const ctx = document.getElementById('myChart');
+  
+  new Chart(ctx, {
+  type: 'bar',
+  data: {
+      labels:  [2019,2020,2021,2022],
+      datasets: [{
+      label: "Total de consultas",
+      data: [228437,272837,181974,241334],
+      borderWidth: 1
+      }]
+  },
+  options: {
+      responsive: true,
+      maintainAspectRatio: false,
+      scales: {
+      y: {
+          beginAtZero: true
+      }
+      }
+  }
+  });
+  
+  </script>
 {% endblock %}
 
 {% block footer %}
