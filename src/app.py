@@ -107,7 +107,8 @@ def graficos_medicamentos_sjc():
 @app.route("/graficos_gastos_sjc")
 def graficos_gastos_sjc():
   GASTOS = DADOS_GASTOS['SJC']
-  return render_template('/municipios/graficos_gastos_sjc.html', gastos=GASTOS)
+  print(GASTOS)
+  return render_template('/municipios/graficos_gastos_sjc.html', gastos=list(GASTOS))
 
 @app.route("/graficos_gastos_aparecida")
 def graficos_gastos_aparecida():
