@@ -4,6 +4,7 @@
     <title>Gráficos - SJC</title>
 {% endblock %}
 
+
 {% block body %}
     <h1>São José Dos Campos - Covid longa</h1>
     <hr>
@@ -29,10 +30,37 @@
       </select>
     </div><br>  
 
-    <div class="alinhar">
-      <img src="../../static/graficos_medicamentos/total_gastos_medicamentos_sjc.png" alt="Total de gastos com medicamentos - Jacareí">
+    <div class="gf">
+      <canvas id="myChart"></canvas>
     </div>
-
+    
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+    <script>
+    
+    const ctx = document.getElementById('myChart');
+    
+    new Chart(ctx, {
+    type: 'bar',
+    data: {
+        labels:  [2019,2020,2021,2022],
+        datasets: [{
+        label: "Total gasto com medicamentos",
+        data: [4353742.73,3873657.01,5070006.37,4593269.88],
+        borderWidth: 1
+        }]
+    },
+    options: {
+        responsive: true,
+        maintainAspectRatio: false,
+        scales: {
+        y: {
+            beginAtZero: true
+        }
+        }
+    }
+    });
+    
+    </script>
 {% endblock %}
 
 {% block footer %}
