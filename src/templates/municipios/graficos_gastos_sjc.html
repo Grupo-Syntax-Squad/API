@@ -35,6 +35,39 @@
       <img src="../../static/graficos_gastos/despesas_saude_sjc_3quad.png" alt="Despesas de Saúde em São José Dos Campos">
       <img src="../../static/graficos_gastos/despesas_saude_sjc_4quad.png" alt="Despesas de Saúde em São José Dos Campos">
   </div>
+    <div class="gf">
+      <canvas id="myChart"></canvas>
+    </div>
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+    <script>
+      const ctx = document.getElementById('myChart');
+
+      new Chart(ctx, {
+      type: 'bar',
+      data: {
+          labels: [2019, 2020, 2021, 2022],
+          datasets: [{
+          label: "5 Maiores Gastos",
+          data: [13, 52, 31, 42],
+          borderWidth: 1
+          },
+          {
+          label: "5 Maiores Gastos",
+          data: [21, 14, 31, 24],
+          borderWidth: 1
+          }]
+      },
+      options: {
+          responsive: true,
+          maintainAspectRatio: false,
+          scales: {
+          y: {
+              beginAtZero: true
+          }
+          }
+      }
+      });
+  </script>
 {% endblock %}
 
 {% block footer %}
