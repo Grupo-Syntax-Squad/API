@@ -193,12 +193,12 @@ hr {
   color: black
 }
 
-.sintax-img {
+.team {
   position:absolute;
-  top: 220px;
-  left: 730px; 
-  width: 450px;
-  height: 310px
+  top: 22.703818369453046vh;
+  left: 50.020833333333336vw; 
+  width: 23.4375vw;
+  height: 31.99174406604747vh
 }
 
 .github {
@@ -288,6 +288,13 @@ hr{
   text-align: center;
   width: 640px;
   height: 390px
+}
+
+.gf {
+  margin: auto;
+  width: 80vw;
+  height: 55vh;
+  margin-bottom: 8vh;
 }
 
 @media screen and (max-width: 500px) {
@@ -393,5 +400,8 @@ hr{
     height: 28px;
   }
 /* fim footer   */
-    
+  /* canvas { 
+    max-width: 800px;
+    padding-left: 10%;
+  } */
 }
