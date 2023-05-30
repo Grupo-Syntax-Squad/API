@@ -208,6 +208,7 @@ hr {
 .gitlink {
   text-decoration: none;
   color: black;
+  margin-left: 0.5vw;
 }
 
 h1{
