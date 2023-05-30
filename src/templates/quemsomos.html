@@ -5,7 +5,7 @@
 {% endblock %}
 
 {% block body %}
-    <h1>Syntax Squad</h1>
+    <h1 class="titulo-pagina">Syntax Squad</h1>
     <hr>
     <div class="campo">
         <select id="integrante" onchange="window.location.href = this.value;">
@@ -26,11 +26,16 @@
     <div class="sobrenos">
         <p>Somos a "Syntax Squad", uma equipe composta por 8 integrantes, todos alunos do curso de <br> Desenvolvimento de Software Multiplataforma. <br> <br> Você pode acessar o perfil de cada integrante para saber um pouco mais a nosso respeito!</p> 
     </div>
-    <img src="../static/logosintax.jpg" alt="logoSyntaxSquad" class="sintax-img">
-    
-    <img src="../static/github.png" alt="Ícone - Github" class="github">
 
-    <a href="https://github.com/GRUPOAPIDSM2023" target="_blank" class="gitlink"> <h3> Grupo Syntax Squad </h3></a>
+    <div>
+        <img src="../static/logosintax.jpg" alt="logoSyntaxSquad" id="sintax-img">
+    </div>
+
+    <div id="git-grupo">
+        <img src="../static/github.png" alt="Ícone - Github" id="github">
+
+        <a href="https://github.com/GRUPOAPIDSM2023" target="_blank" class="gitlink"> <h3> Grupo Syntax Squad </h3></a>
+    </div>
 
 {% endblock %}
 
