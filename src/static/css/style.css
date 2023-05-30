@@ -202,11 +202,7 @@ hr {
 }
 
 .github {
-  position:absolute;
-  top: 535px;
-  left: 730px; 
   width: 40px;
-  height: 40px
   } 
 
 .gitlink {
@@ -225,11 +221,8 @@ hr{
 }
 
 .foto{
-  position:absolute;
-  top: 220px;
-  left: 730px; 
-  width: 310px;
-  height: 310px
+  width: 30vw;
+  margin-right: 2vw;
 }
 
 #foto-wellington{
@@ -296,11 +289,11 @@ hr{
 
 #sintax-img {
   width: 25vw;
-  margin-right: 5%;
+  margin-right: 2vw;
 }
 
 .sobrenos {
-  width: 40%;
+  width: 45%;
   margin-left: 5%;
 }
 
@@ -308,11 +301,10 @@ hr{
   display: flex;
 }
 
-#imagem-grupo {
+.imagem-grupo {
   display: flex;
-  width: 8vw;
   flex-direction: row-reverse;
-  margin-left: 42%;
+  width: 40%;
 }
 
 .github {
@@ -321,9 +313,11 @@ hr{
 }
 
 .git-grupo {
+  width: 40%;
   display: flex;
-  margin-left: 70%;
-  margin-top: 2%;
+  margin-left: 65%;
+  margin-top: 1%;
+  margin-bottom: 5%;
 }
 
 @media screen and (max-width: 500px) {
