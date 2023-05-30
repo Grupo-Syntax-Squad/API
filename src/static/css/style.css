@@ -299,12 +299,12 @@ hr{
   margin-right: 5%;
 }
 
-#sobrenos {
+.sobrenos {
   width: 40%;
   margin-left: 5%;
 }
 
-#conteudo-sobre {
+.conteudo-sobre {
   display: flex;
 }
 
@@ -312,15 +312,15 @@ hr{
   display: flex;
   width: 8vw;
   flex-direction: row-reverse;
-  margin-left: 45%;
+  margin-left: 42%;
 }
 
-#github {
+.github {
   height: 6vh;
   margin-right: 1%;
 }
 
-#git-grupo {
+.git-grupo {
   display: flex;
   margin-left: 70%;
   margin-top: 2%;
@@ -329,7 +329,6 @@ hr{
 @media screen and (max-width: 500px) {
 
 /* inicio index */
-
   .titulo-pagina {
     margin-left: 3%;
     text-align: left;
@@ -370,7 +369,6 @@ hr{
 /* fim do index */
 
 /* início acesso */
-
 .campo {
   margin-top: 5vh;
   margin-left: 13%;
@@ -386,18 +384,17 @@ hr{
   width: 180%;
   margin-left: -35%;
 }
-
 /* fim acesso */
 
 
 /* inicio quem somos */
-  #github {
+  .github {
     display: flex;
     width: 8vw;
     margin: 0% auto;
     }
     
-  #sobrenos {
+  .sobrenos {
     font-size: 15px;
     width: 95%;
   }
@@ -418,7 +415,7 @@ hr{
     margin-top: 0%;
   }
 
-  #git-grupo {
+  .git-grupo {
     margin-top: 10%;
     margin-bottom: 20%;
   }
@@ -430,8 +427,5 @@ hr{
     height: 28px;
   }
 /* fim footer   */
-  /* canvas { 
-    max-width: 800px;
-    padding-left: 10%;
-  } */
+
 }
