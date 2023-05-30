@@ -11,6 +11,7 @@ def maioresgastos():
             for linha in arquivo.readlines():
                 cidadegastos.append(linha)
         gastos[cidade] = cidadegastos
+    return gastos
     print(gastos)
 
 maioresgastos()
