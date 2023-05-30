@@ -383,10 +383,19 @@ hr{
 
 
 /* inicio quem somos */
+  .conteudo-sobre {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .imagem-grupo {
+    width: 100%;
+    justify-content: center;
+  }
+
   .github {
     display: flex;
-    width: 8vw;
-    margin: 0% auto;
+    height: 65%;
     }
     
   .sobrenos {
@@ -408,11 +417,19 @@ hr{
     left: 1vw;
     top: 1%;
     margin-top: 0%;
+    margin-right: 10%;
   }
 
   .git-grupo {
-    margin-top: 10%;
+    margin-top: 8%;
     margin-bottom: 20%;
+    margin-left: 0%;
+    width: 100%;
+    justify-content: center;
+  }
+
+  .foto {
+    width: 50vw;
   }
 /* fim quem somos */
   
