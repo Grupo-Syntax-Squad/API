@@ -120,7 +120,7 @@ h2, p {
   width: 60vw;
 }
 
-.introducao > p {
+.introducao p {
   position: relative;
 }
 
@@ -267,6 +267,7 @@ hr{
     justify-content: center
 }
 
+/*Footer para páginas com rolagem*/
 .footer-relative {
   text-align: center;
   position: absolute;
