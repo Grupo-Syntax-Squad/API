@@ -290,15 +290,46 @@ hr{
 }
 
 @media screen and (max-width: 500px) {
+
+/* inicio index */
+
+  #bem-vindo {
+    margin-left: 3%;
+    text-align: left;
+  }
+
   .introducao{
     display: flex;
     flex-wrap: wrap;
     flex-direction: column;
   }
 
+  #mapa-index {
+    display: flex;
+    position: relative;
+    width: 80%;
+    height: 10vh;
+  }
+
+  .index-img {
+    position: relative;
+    height: 100%;
+    left: 40%;
+  }
+
   .texto-introducao {
     display: flex;
+    width: 90%;
   }
+
+  .continuar{
+    position: relative;
+    display: flex;
+    margin-top: 20%;
+    width: 100%;
+    margin-left: 35%;
+  }
+/* fim do index */
 
   .github {
     display: flex;
@@ -329,8 +360,10 @@ hr{
     left: 155vw
   }
   
-
-  
-    
+/* inicio footer */
+  .footer {
+    height: 28px;
+  }
+/* fim footer   */
     
 }
