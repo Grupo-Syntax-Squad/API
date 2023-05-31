@@ -206,9 +206,10 @@ hr {
   } 
 
 .gitlink {
-  text-decoration: none;
-  color: black;
-  margin-left: 0.5vw;
+  width: 10vw;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
 }
 
 h1{
@@ -222,6 +223,7 @@ hr{
 }
 
 .foto{
+  border-radius: 50%;
   width: 30vw;
   margin-right: 2vw;
 }

@@ -136,32 +136,64 @@ def quemsomos():
 
 @app.route("/diego")
 def diego():
-  return render_template('/integrantes/diego.html')
+  nome = "Diego Dias"
+  desc = ""
+  img = "../../static/integrantes/diego.jpg"
+  linkgit = "https://github.com/diegoboasorte"
+  return render_template('/integrantes/baseintegrantes.html', nome=nome, desc=desc, img=img, linkgit=linkgit)
 
 @app.route("/gabrieldeo")
 def gabrieldeo():
-  return render_template('/integrantes/gabrieldeo.html')
+  nome = "Gabriel Reis"
+  desc = "Descrição do integrante"
+  img = "../../static/integrantes/gabrieldeo.png"
+  linkgit = "https://github.com/b4hia"
+  return render_template('/integrantes/baseintegrantes.html', nome=nome, desc=desc, img=img, linkgit=linkgit)
 
 @app.route("/gabrielf")
 def gabrielf():
-  return render_template('/integrantes/gabrielf.html')
+  nome = "Gabriel Felipe"
+  desc = "Descrição do integrante"
+  img = "../../static/integrantes/gabrielf.png"
+  linkgit = "https://github.com/gabrielfsantos99"
+  return render_template('/integrantes/baseintegrantes.html', nome=nome, desc=desc, img=img, linkgit=linkgit)
 
 @app.route("/joao")
 def joao():
-  return render_template('/integrantes/joao.html')
+  nome = "João Vitor"
+  desc = "Descrição do integrante"
+  img = "../../static/integrantes/joao.jpeg"
+  linkgit = "https://github.com/JaovitoP"
+  return render_template('/integrantes/baseintegrantes.html', nome=nome, desc=desc, img=img, linkgit=linkgit)
 
 @app.route("/lucas")
 def lucas():
-  return render_template('/integrantes/lucas.html')
+  nome = "Lucas Langeani"
+  desc = "Descrição do integrante"
+  img = "../../static/integrantes/lucas.png"
+  linkgit = "https://github.com/langeanith"
+  return render_template('/integrantes/baseintegrantes.html', nome=nome, desc=desc, img=img, linkgit=linkgit)
 
 @app.route("/mateus")
 def mateus():
-  return render_template('/integrantes/mateus.html')
+  nome = "Mateus Reis"
+  desc = "Descrição do integrante"
+  img = "../../static/integrantes/mateus.png"
+  linkgit = "https://github.com/mhlreis"
+  return render_template('/integrantes/baseintegrantes.html', nome=nome, desc=desc, img=img, linkgit=linkgit)
 
 @app.route("/ryan")
 def ryan():
-  return render_template('/integrantes/ryan.html')
+  nome = "Ryan Araújo"
+  desc = "Descrição do integrante"
+  img = "../../static/integrantes/ryan.jpg"
+  linkgit = "https://github.com/ryanvdaraujo"
+  return render_template('/integrantes/baseintegrantes.html', nome=nome, desc=desc, img=img, linkgit=linkgit)
 
 @app.route("/wellington")
 def wellington():
-  return render_template('/integrantes/wellington.html')
+  nome = "Wellington Faria"
+  desc = "Descrição do integrante"
+  img = "../../static/integrantes/wellington.jpg"
+  linkgit = "https://github.com/WellingtonLFaria"
+  return render_template('/integrantes/baseintegrantes.html', nome=nome, desc=desc, img=img, linkgit=linkgit)
