@@ -1,0 +1,5 @@
+1-
+Atencao Basica	2 - Fundo Municipal De Saude
+Geral	1 - Secretaria De Servicos Publicos
+Atencao Media Alta Comp Ambulatorial Hospitalar	2 - Fundo Municipal De Saude
+Ensino Fundamental	1 - Secretaria De Educacao	Folha De Pagamento

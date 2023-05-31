@@ -1,0 +1,5 @@
+Educacao - Fundeb - Magisterio	1 - Secretaria De Educacao	Folha De Pagamento
+Ensino Fundamental	1 - Secretaria De Educacao	Folha De Pagamento
+Atencao Basica	2 - Fundo Municipal De Saude	Folha De Pagamento
+Geral	1 - Secretaria De Servicos Publicos
+Progr.Melhoria Mobilidade Urbana E Sociambiental
