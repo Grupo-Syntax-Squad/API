@@ -28,15 +28,18 @@
         </div>
 
         <div class="imagem-grupo">
-            <img src="{{ img }}" alt="Foto do Diego" class="foto">
+            <div><img src="{{ img }}" alt="Foto do Diego" class="foto"></div>
+            <div id="contatogit">
+                <a href="{{ linkgit }}" target="_blank" class="gitlink">
+                    <img src="../static/github.png" alt="Ícone - Github" class="github">
+                    <h3>{{ nome }}</h3>
+                </a>
+            </div>
         </div>
     </div>
    
     <div class="git-grupo">
-        <a href="{{ linkgit }}" target="_blank" class="gitlink">
-            <img src="../static/github.png" alt="Ícone - Github" class="github">
-            <h3>{{ nome }}</h3>
-        </a>
+        
     </div>
 {% endblock %}
 
