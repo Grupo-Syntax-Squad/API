@@ -106,29 +106,29 @@ def graficos_medicamentos_sjc():
 
 @app.route("/graficos_gastos_sjc")
 def graficos_gastos_sjc():
-  GASTOS = DADOS_GASTOS['SJC']
-  print(GASTOS)
-  return render_template('/municipios/graficos_gastos_sjc.html', gastos=list(GASTOS))
+  # GASTOS = DADOS_GASTOS['SJC']
+  # print(GASTOS)
+  return render_template('/municipios/graficos_gastos_sjc.html')
 
 @app.route("/graficos_gastos_aparecida")
 def graficos_gastos_aparecida():
-  GASTOS = DADOS_GASTOS['Aparecida']
-  return render_template('/municipios/graficos_gastos_aparecida.html', gastos=GASTOS)
+  # GASTOS = DADOS_GASTOS['Aparecida']
+  return render_template('/municipios/graficos_gastos_aparecida.html')
 
 @app.route("/graficos_gastos_taubate")
 def graficos_gastos_taubate():
-  GASTOS = DADOS_GASTOS['Taubaté']
-  return render_template('/municipios/graficos_gastos_taubate.html', gastos=GASTOS)
+  # GASTOS = DADOS_GASTOS['Taubaté']
+  return render_template('/municipios/graficos_gastos_taubate.html')
 
 @app.route("/graficos_gastos_jacarei")
 def graficos_gastos_jacarei():
-  GASTOS = DADOS_GASTOS['Jacareí']
-  return render_template('/municipios/graficos_gastos_jacarei.html', gastos=GASTOS)
+  # GASTOS = DADOS_GASTOS['Jacareí']
+  return render_template('/municipios/graficos_gastos_jacarei.html')
 
 @app.route("/graficos_gastos_cacapava")
 def graficos_gastos_cacapava():
-  GASTOS = DADOS_GASTOS['Caçapava']
-  return render_template('/municipios/graficos_gastos_cacapava.html', gastos=GASTOS)
+  # GASTOS = DADOS_GASTOS['Caçapava']
+  return render_template('/municipios/graficos_gastos_cacapava.html')
 
 @app.route("/quemsomos")
 def quemsomos():
