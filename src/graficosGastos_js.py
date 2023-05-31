@@ -9,7 +9,7 @@ def maioresgastos():
     gastos = {}
     for cidade in CIDADES:
         cidadegastos = []
-        with open(f"{os.path.dirname(os.path.abspath(__file__))}/Gráficos e Raspagem de Dados/Gastos/{cidade}/5maioresgastos.csv", "r") as arquivo:
+        with open(f"{os.path.dirname(os.path.abspath(__file__))}/GraficosRaspagemDados/Gastos/{cidade}/5maioresgastos.csv", "r") as arquivo:
             for linha in arquivo.readlines():
                 cidadegastos.append(ast.literal_eval(linha)[0])
                 cidadegastos.append(ast.literal_eval(linha)[1])

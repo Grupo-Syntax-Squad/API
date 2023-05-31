@@ -16,7 +16,7 @@ def dados_internacoes():
             dados = []
             ANOSG = []
             for ano in ANOS:
-                df = pd.read_csv(f"{os.getcwd()}/Gráficos e Raspagem de Dados/.Tabelas Internações/dados cid10 {ano}.csv", sep=";", encoding="utf-8")
+                df = pd.read_csv(f"{os.getcwd()}/GraficosRaspagemDados/TabelasInternacoes/dados cid10 {ano}.csv", sep=";", encoding="utf-8")
                 cidadedados = df.loc[df['Munic�pio'] == cidade]
                 dados.append(cidadedados.loc[CIDADES.index(cidade), cap])
                 ANOSG.append(ano)
