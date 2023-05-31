@@ -17,4 +17,13 @@ def maioresgastos():
                 cidadegastos.append(ast.literal_eval(linha)[3])
                 cidadegastos.append(ast.literal_eval(linha)[4])
             gastos[cidade] = cidadegastos[0:5], cidadegastos[5:10], cidadegastos[10:15], cidadegastos[15:20]
-    return gastos
+
+    for cidade in gastos:
+        gastoscida = gastos[cidade]
+        gastoscidn = []
+        for c in range(5):
+            ga = []
+            for k in range(4):
+                ga.append(gastoscida[k][c])
+            gastoscidn.append(ga)
+    return gastoscidn
