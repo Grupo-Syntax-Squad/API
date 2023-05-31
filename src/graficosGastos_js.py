@@ -26,4 +26,5 @@ def maioresgastos():
             for k in range(4):
                 ga.append(gastoscida[k][c])
             gastoscidn.append(ga)
-    return gastoscidn
+        gastos[cidade] = gastoscidn
+    return gastos

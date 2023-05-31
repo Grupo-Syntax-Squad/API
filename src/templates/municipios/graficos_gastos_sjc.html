@@ -29,7 +29,6 @@
       </select>
     </div><br>
     <div class="alinhar">
-      <img src="../../static/graficos_gastos/GráficoGastosporAnoSJC.svg" alt="Os 5 maiores gastos por ano em São José dos Campos"> <br>
       <img src="../../static/graficos_gastos/despesas_saude_sjc_1quad.png" alt="Despesas de Saúde em São José Dos Campos">
       <img src="../../static/graficos_gastos/despesas_saude_sjc_2quad.png" alt="Despesas de Saúde em São José Dos Campos">
       <img src="../../static/graficos_gastos/despesas_saude_sjc_3quad.png" alt="Despesas de Saúde em São José Dos Campos">
@@ -46,16 +45,15 @@
       type: 'bar',
       data: {
           labels: [2019, 2020, 2021, 2022],
-          datasets: [{
-          label: "5 Maiores Gastos",
-          data: [13, 52, 31, 42],
+          datasets: [
+          {% for ordem in gastos %}
+          {
+          label: "{{ gastos.index(ordem)+1 }}º Maior gasto",
+          data: {{ ordem }},
           borderWidth: 1
           },
-          {
-          label: "5 Maiores Gastos",
-          data: [21, 14, 31, 24],
-          borderWidth: 1
-          }]
+          {% endfor %}
+        ]
       },
       options: {
           responsive: true,
