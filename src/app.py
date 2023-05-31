@@ -107,28 +107,27 @@ def graficos_medicamentos_sjc():
 
 @app.route("/graficos_gastos_sjc")
 def graficos_gastos_sjc():
-  # GASTOS = DADOS_GASTOS['SJC']
-  # print(GASTOS)
+  GASTOS = DADOS_GASTOS['SJC'][0]
   return render_template('/municipios/graficos_gastos_sjc.html')
 
 @app.route("/graficos_gastos_aparecida")
 def graficos_gastos_aparecida():
-  # GASTOS = DADOS_GASTOS['Aparecida']
+  GASTOS = DADOS_GASTOS['Aparecida'][0]
   return render_template('/municipios/graficos_gastos_aparecida.html')
 
 @app.route("/graficos_gastos_taubate")
 def graficos_gastos_taubate():
-  # GASTOS = DADOS_GASTOS['Taubaté']
+  GASTOS = DADOS_GASTOS['Taubaté'][0]
   return render_template('/municipios/graficos_gastos_taubate.html')
 
 @app.route("/graficos_gastos_jacarei")
 def graficos_gastos_jacarei():
-  # GASTOS = DADOS_GASTOS['Jacareí']
+  GASTOS = DADOS_GASTOS['Jacareí'][0]
   return render_template('/municipios/graficos_gastos_jacarei.html')
 
 @app.route("/graficos_gastos_cacapava")
 def graficos_gastos_cacapava():
-  # GASTOS = DADOS_GASTOS['Caçapava']
+  GASTOS = DADOS_GASTOS['Caçapava'][0]
   return render_template('/municipios/graficos_gastos_cacapava.html')
 
 @app.route("/quemsomos")
@@ -198,3 +197,6 @@ def wellington():
   img = "../../static/integrantes/wellington.jpg"
   linkgit = "https://github.com/WellingtonLFaria"
   return render_template('/integrantes/baseintegrantes.html', nome=nome, desc=desc, img=img, linkgit=linkgit)
+
+if __name__ == "__main__":
+  app.run(host="0.0.0.0", port=80)
