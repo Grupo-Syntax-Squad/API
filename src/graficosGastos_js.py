@@ -14,7 +14,11 @@ def maioresgastos():
             for linha in arquivo.readlines():
                 print(linha)
                 cidadegastos.append(ast.literal_eval(linha)[0])
-            gastos.append([cidadegastos])
+                cidadegastos.append(ast.literal_eval(linha)[1])
+                cidadegastos.append(ast.literal_eval(linha)[2])
+                cidadegastos.append(ast.literal_eval(linha)[3])
+                cidadegastos.append(ast.literal_eval(linha)[4])
+            gastos.append(cidadegastos)
     return gastos
 
 print(maioresgastos())
