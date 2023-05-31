@@ -43,8 +43,14 @@
       data: {
           labels: {{ cap[1] }},
           datasets: [{
-          label: "{{ cap[0] }}",
+          label: "{{ caps[dados.index(cap)] }}",
           data: {{ cap[2] }},
+          backgroundColor: [
+          'rgba(153, 102, 255, 0.2)'
+          ],
+          borderColor: [
+          'rgb(153, 102, 255)'
+          ],
           borderWidth: 1
           }]
       },
