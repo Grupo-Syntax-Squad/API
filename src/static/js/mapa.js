@@ -24,9 +24,3 @@ areas.forEach(function(area){
           });
         });
       });
-
-// Selecionando o elemento de texto pelo ID
-
-
-// Mudando a cor da fonte para vermelho
-
