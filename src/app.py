@@ -153,7 +153,7 @@ def gabrieldeo():
 @app.route("/gabrielf")
 def gabrielf():
   nome = "Gabriel Felipe"
-  desc = "Olá, me chamo Gabriel Felipe dos Santos, atualmente moro em São José dos Campos e faço parte da Developer Team da Syntax Squad. Nos tempos vagos gosto de jogar vide game e assistir séries. Você pode ver mais sobre meus projetos acessando meu perfil no github. "
+  desc = "Olá, me chamo Gabriel Felipe dos Santos, atualmente moro em São José dos Campos e faço parte da Developer Team da Syntax Squad. Nos tempos vagos gosto de jogar video game e assistir séries. Você pode ver mais sobre meus projetos acessando meu perfil no github. "
   img = "../../static/integrantes/gabrielf.png"
   linkgit = "https://github.com/gabrielfsantos99"
   return render_template('/integrantes/baseintegrantes.html', nome=nome, desc=desc, img=img, linkgit=linkgit)
@@ -161,7 +161,7 @@ def gabrielf():
 @app.route("/joao")
 def joao():
   nome = "João Vitor"
-  desc = "Olá, me chamo João Vitor, atualmente moro em São José dos Campos e faço parte da Developer Team da Syntax Squad. Nos tempos vagos gosto de . Você pode ver mais sobre meus projetos acessando meu perfil no GitHub. "
+  desc = "Olá, me chamo João Vitor, atualmente moro em São José dos Campos e faço parte da Developer Team da Syntax Squad. Nos tempos vagos gosto de treinar e ler um livro. Você pode ver mais sobre meus projetos acessando meu perfil no GitHub. "
   img = "../../static/integrantes/joao.jpeg"
   linkgit = "https://github.com/JaovitoP"
   return render_template('/integrantes/baseintegrantes.html', nome=nome, desc=desc, img=img, linkgit=linkgit)
