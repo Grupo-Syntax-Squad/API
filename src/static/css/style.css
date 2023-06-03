@@ -449,3 +449,12 @@ hr{
 /* fim footer   */
 
 }
+
+.fontes {
+  text-decoration: none;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-size: 9px;
+  color: rgb(78, 78, 78);
+  padding-top: 20px
+  
+}
