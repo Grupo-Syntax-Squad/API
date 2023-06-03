@@ -31,6 +31,7 @@
     {% for cap in dados %}
       <div class="gf">
         <canvas id="myChart{{ dados.index(cap) }}"></canvas>
+        <a class="fontes" href="http://tabnet.datasus.gov.br/cgi/tabcgi.exe?sih/cnv/nisp.def" target="_blank"> Fonte: http://tabnet.datasus.gov.br/cgi/tabcgi.exe?sih/cnv/nisp.def </a>
       </div>
     {% endfor %}
     <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
