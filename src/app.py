@@ -177,7 +177,7 @@ def lucas():
 @app.route("/mateus")
 def mateus():
   nome = "Mateus Reis"
-  desc = "Olá, me chamo Matheus Reis, atualmente moro em São José dos Campos e faço parte da Developer Team da Syntax Squad. Nos tempos vagos gosto de . Você pode ver mais sobre meus projetos acessando meu perfil no GitHub. "
+  desc = "Olá, me chamo Mateus Reis, atualmente moro em São José dos Campos e faço parte da Developer Team da Syntax Squad. Nos tempos vagos gosto de trabalhos manuais, mecânica, jogos e uma cerveja gelada. Você pode ver mais sobre meus projetos acessando meu perfil no GitHub. "
   img = "../../static/integrantes/mateus.png"
   linkgit = "https://github.com/mhlreis"
   return render_template('/integrantes/baseintegrantes.html', nome=nome, desc=desc, img=img, linkgit=linkgit)
