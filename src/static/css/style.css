@@ -39,7 +39,7 @@ nav button {
 } */
 
 .continuar {
-  margin-top: 10%;
+  margin-top: 5%;
   margin-left: 47%;
 }
 
@@ -96,19 +96,22 @@ h2, p {
   margin-left: 20px
 }
 
+.mapa-cidade {
+  display: flex;
+  justify-content: center;
+  margin: 2vh 0;
+}
+
 .mapa-img {
-  position:absolute;
-  top: 220px;
-  left: 730px; 
-  width: 650px;
-  height: 410px
+  position: relative;
+  width: 50vw;
 }
 
 .mapa2-img {
   position:absolute;
   top: 230px;
   left: 730px; 
-  width: 613px;
+  width: 45vw;
   height: 375px;
 }
 
@@ -157,9 +160,9 @@ hr {
 }
 
 .cidade {
-  position: absolute;
-  top: 620px;
-  left: 930px
+  display: flex;
+  margin-bottom: 4vh;
+  justify-content: center;
 }
 
 .legenda {
