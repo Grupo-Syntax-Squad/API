@@ -192,7 +192,7 @@ def mateus():
 @app.route("/ryan")
 def ryan():
   nome = "Ryan Araújo"
-  desc = "Olá, me chamo Ryan Araújo, atualmente moro em São José dos Campos, sou o Scrum Master e faço parte da Developer Team da Syntax Squad. Nos tempos vagos gosto de . Você pode ver mais sobre meus projetos acessando meu perfil no GitHub. "
+  desc = "Olá, me chamo Ryan Araújo, atualmente moro em São José dos Campos, sou o Scrum Master do projeto. Nos tempos vagos gosto de jogar futebol e assistir filmes. Você pode ver mais sobre meus projetos acessando meu perfil no GitHub. "
   img = "../../static/integrantes/ryan.jpg"
   linkgit = "https://github.com/ryanvdaraujo"
   return render_template('/integrantes/baseintegrantes.html', nome=nome, desc=desc, img=img, linkgit=linkgit)
