@@ -200,7 +200,7 @@ def ryan():
 @app.route("/wellington")
 def wellington():
   nome = "Wellington Faria"
-  desc = "Olá, me chamo Wellington, atualmente moro em São José dos Campos e faço parte da Developer Team da Syntax Squad. Nos tempos vagos gosto de jogar LoL. Você pode ver mais sobre meus projetos acessando meu perfil no GitHub. "
+  desc = "Olá, me chamo Wellington, atualmente moro em São José dos Campos e faço parte do Dev Team da Syntax Squad. Nos tempos vagos gosto de jogar e realizar alguns projetos pessoais. Você pode ver mais sobre meus projetos acessando meu perfil no GitHub."
   img = "../../static/integrantes/wellington.jpg"
   linkgit = "https://github.com/WellingtonLFaria"
   return render_template('/integrantes/baseintegrantes.html', nome=nome, desc=desc, img=img, linkgit=linkgit)
