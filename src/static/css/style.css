@@ -335,12 +335,22 @@ hr{
 
 /* Legendas dos gráficos de 5 maiores gastos */
 .legendas, .legendas > ul{
+  font-family: Calibri, Verdana, Geneva, Tahoma, sans-serif;
+  width: 100vw;
   display: flex;
   flex-direction: row;
 }
 
 .legendas > ul > li {
-  margin: 0 1vw;
+  margin: 0 3vw;
+}
+
+.legendas > ul > li > ol > li {
+  margin: 1vh 0;
+}
+
+.legendas > ul > li > ol {
+  padding: 0;
 }
 
 @media screen and (max-width: 600px) {
