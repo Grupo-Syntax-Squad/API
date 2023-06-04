@@ -35,10 +35,69 @@
       <img src="../../static/graficos_gastos/despesas_saude_sjc_4quad.png" alt="Despesas de Saúde em São José Dos Campos">
  
    </div>
+   
+   <!-- Gráfico 5 maiores gastos -->
     <div class="gf">
       <canvas id="myChart"></canvas>
       <a class="fontes" href="https://servicos.sjc.sp.gov.br/portal_da_transparencia/despesa_funcao.aspx" target="_blank"> Fonte: https://servicos.sjc.sp.gov.br/portal_da_transparencia/despesa_funcao.aspx </a>  
     </div>
+
+    <!-- Legendas -->
+    <div class="legendas">
+      <!-- Lista dos anos -->
+      <ul>
+        <!-- 2019 -->
+        <li>
+          2019
+          <!-- Lista dos gastos -->
+          <ol>
+            <li>TRANSPORTE	INFRA-ESTRUTURA URBANA</li>
+            <li>SAÚDE	ATENÇÃO BÁSICA</li>
+            <li>SAÚDE	ATENÇÃO BÁSICA</li>
+            <li>SAÚDE	ATENÇÃO BÁSICA</li>
+            <li>SAÚDE	ATENÇÃO BÁSICA</li>
+          </ol>
+        </li>
+        <!-- 2020 -->
+        <li>
+          2020
+          <!-- Lista dos gastos -->
+          <ol>
+            <li>SAÚDE	ATENÇÃO BÁSICA</li>
+            <li>TRANSPORTE	INFRA-ESTRUTURA URBANA</li>
+            <li>SAÚDE	ATENÇÃO BÁSICA</li>
+            <li>SAÚDE	ATENÇÃO BÁSICA</li>
+            <li>SAÚDE	ATENÇÃO BÁSICA</li>
+          </ol>
+        </li>
+        <!-- 2021 -->
+        <li>
+          2021
+          <!-- Lista dos gastos -->
+          <ol>
+            <li>TRANSPORTE	INFRA-ESTRUTURA URBANA</li>
+            <li>SAÚDE	ATENÇÃO BÁSICA</li>
+            <li>EDUCAÇÃO	ENSINO FUNDAMENTAL</li>
+            <li>EDUCAÇÃO	ENSINO FUNDAMENTAL</li>
+            <li>EDUCAÇÃO	ENSINO FUNDAMENTAL</li>
+          </ol>
+        </li>
+        <!-- 2022 -->
+        <li>
+          2022
+          <!-- Lista dos gastos -->
+          <ol>
+            <li>SAÚDE	ATENÇÃO BÁSICA</li>
+            <li>SAÚDE	ASSISTÊNCIA HOSPITALAR E AMBULATORIAL</li>
+            <li>ADMINISTRAÇÃO	ADMINISTRAÇÃO GERAL</li>
+            <li>ADMINISTRAÇÃO	ADMINISTRAÇÃO GERAL</li>
+            <li>EDUCAÇÃO	ENSINO FUNDAMENTAL</li>
+          </ol>
+        </li>
+      </ul>
+    </div>
+
+    <!-- Script do Gráfico -->
     <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
     <script>
       const ctx = document.getElementById('myChart');
@@ -52,6 +111,9 @@
           {
           label: "{{ gastos.index(ordem)+1 }}º Maior gasto",
           data: {{ ordem }},
+          backgroundColor: [
+            "{{ cores[gastos.index(ordem)] }}"
+          ],
           borderWidth: 1
           },
           {% endfor %}

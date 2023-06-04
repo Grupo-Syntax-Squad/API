@@ -5,6 +5,13 @@ from flask import Flask, render_template
 DADOS_INTERNACOES = dados_internacoes()
 DADOS_GASTOS = maioresgastos()
 CAPSDESC = ['Doenças do sistema nervoso', 'Doenças do aparelho circulatório', 'Doenças do aparelho respiratório', 'Doenças do aparelho digestivo']
+CORES = [
+	'rgba(0, 0, 255)',
+  	'rgba(50, 50, 255)',
+    'rgba(100, 100, 255)',
+    'rgba(150, 150, 255)',
+  	'rgba(200, 200, 255)'     
+]
 
 app = Flask(__name__)
 
@@ -108,27 +115,27 @@ def graficos_medicamentos_sjc():
 @app.route("/graficos_gastos_sjc")
 def graficos_gastos_sjc():
   GASTOS = DADOS_GASTOS['SJC']
-  return render_template('/municipios/graficos_gastos_sjc.html', gastos=GASTOS)
+  return render_template('/municipios/graficos_gastos_sjc.html', gastos=GASTOS, cores=CORES)
 
 @app.route("/graficos_gastos_aparecida")
 def graficos_gastos_aparecida():
   GASTOS = DADOS_GASTOS['Aparecida']
-  return render_template('/municipios/graficos_gastos_aparecida.html', gastos=GASTOS)
+  return render_template('/municipios/graficos_gastos_aparecida.html', gastos=GASTOS, cores=CORES)
 
 @app.route("/graficos_gastos_taubate")
 def graficos_gastos_taubate():
   GASTOS = DADOS_GASTOS['Taubaté']
-  return render_template('/municipios/graficos_gastos_taubate.html', gastos=GASTOS)
+  return render_template('/municipios/graficos_gastos_taubate.html', gastos=GASTOS, cores=CORES)
 
 @app.route("/graficos_gastos_jacarei")
 def graficos_gastos_jacarei():
   GASTOS = DADOS_GASTOS['Jacareí']
-  return render_template('/municipios/graficos_gastos_jacarei.html', gastos=GASTOS)
+  return render_template('/municipios/graficos_gastos_jacarei.html', gastos=GASTOS, cores=CORES)
 
 @app.route("/graficos_gastos_cacapava")
 def graficos_gastos_cacapava():
   GASTOS = DADOS_GASTOS['Caçapava']
-  return render_template('/municipios/graficos_gastos_cacapava.html', gastos=GASTOS)
+  return render_template('/municipios/graficos_gastos_cacapava.html', gastos=GASTOS, cores=CORES)
 
 @app.route("/quemsomos")
 def quemsomos():

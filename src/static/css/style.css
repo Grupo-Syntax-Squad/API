@@ -330,6 +330,16 @@ hr{
   margin-bottom: 5%;
 }
 
+/* Legendas dos gráficos de 5 maiores gastos */
+.legendas, .legendas > ul{
+  display: flex;
+  flex-direction: row;
+}
+
+.legendas > ul > li {
+  margin: 0 1vw;
+}
+
 @media screen and (max-width: 600px) {
 
 /* inicio index */

@@ -31,10 +31,69 @@
     <div class="alinhar">
       <img src="../../static/graficos_gastos/aplicacao_recursos_saude_caçapava.png" alt="Despesas de Saúde em Caçapava">
     </div>
+
+    <!-- Gráfico 5 maiores gastos -->
     <div class="gf">
       <canvas id="myChart"></canvas>
       <a class="fontes" href="https://transparencia.cacapava.sp.gov.br/TDAPortalClient.aspx?417" target="_blank"> Fonte: https://transparencia.cacapava.sp.gov.br/TDAPortalClient.aspx?417 </a>  
     </div>
+
+    <!-- Legendas -->
+    <div class="legendas">
+      <!-- Lista dos anos -->
+      <ul>
+        <!-- 2019 -->
+        <li>
+          2019
+          <!-- Lista dos gastos -->
+          <ol>
+            <li>Funcionamento do Ensino Fundamental</li>
+            <li>Manutencao dos Servicos Administrativos</li>
+            <li>Manter/ampliar Area de Cobertura do Psf Programa Saude da Familia</li>
+            <li>Manutencao dos Servicos Administrativos</li>
+            <li>Funcionamento da Pre-escola</li>
+          </ol>
+        </li>
+        <!-- 2020 -->
+        <li>
+          2020
+          <!-- Lista dos gastos -->
+          <ol>
+            <li>Funcionamento do Ensino Fundamental</li>
+            <li>Manutencao dos Servicos Administrativos</li>
+            <li>Manter/ampliar Area de Cobertura do Psf Programa Saude da Familia</li>
+            <li>Funcionamento da Pre-escola</li>
+            <li>Coleta/destinacao do Lixo Domiciliar e Hospitalar</li>
+          </ol>
+        </li>
+        <!-- 2021 -->
+        <li>
+          2021
+          <!-- Lista dos gastos -->
+          <ol>
+            <li>Funcionamento do Ensino Fundamental</li>
+            <li>Manutencao dos Servicos Administrativos</li>
+            <li>Manter/ampliar Area de Cobertura do Psf Programa Saude da Familia</li>
+            <li>Funcionamento da Pre-escola</li>
+            <li>Manutencao dos Servicos Administrativos</li>
+          </ol>
+        </li>
+        <!-- 2022 -->
+        <li>
+          2022
+          <!-- Lista dos gastos -->
+          <ol>
+            <li>Funcionamento do Ensino Fundamental</li>
+            <li>Conservacao de Vias Publicas</li>
+            <li>Manutencao dos Servicos Administrativos</li>
+            <li>Funcionamento da Educacao Infantil - Pre Escola</li>
+            <li>Atendimento em Clinicas Basicas nos Postos de Saude</li>
+          </ol>
+        </li>
+      </ul>
+    </div>
+
+    <!-- Script do Gráfico -->
     <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
     <script>
       const ctx = document.getElementById('myChart');
@@ -48,6 +107,9 @@
           {
           label: "{{ gastos.index(ordem)+1 }}º Maior gasto",
           data: {{ ordem }},
+          backgroundColor: [
+            "{{ cores[gastos.index(ordem)] }}"
+          ],
           borderWidth: 1
           },
           {% endfor %}

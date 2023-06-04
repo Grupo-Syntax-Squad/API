@@ -31,10 +31,69 @@
     <div class="alinhar">
         <img src="../../static/graficos_gastos/aplicacao_recursos_saude_taubate.png" alt="Despesas com saúde em Taubaté">
     </div>
+
+    <!-- Gráfico 5 maiores gastos -->
     <div class="gf">
       <canvas id="myChart"></canvas>
       <a class="fontes" href="https://taubate.meumunicipio.digital/apex/taubate/f?p=839:5:::NO:::" target="_blank"> Fonte: https://taubate.meumunicipio.digital/apex/taubate/f?p=839:5:::NO::: </a>  
     </div>
+
+    <!-- Legendas -->
+    <div class="legendas">
+      <!-- Lista dos anos -->
+      <ul>
+        <!-- 2019 -->
+        <li>
+          2019
+          <!-- Lista dos gastos -->
+          <ol>
+            <li>Educacao - Fundeb - Magisterio	1 - Secretaria De Educacao	Folha De Pagamento</li>
+            <li>Ensino Fundamental	1 - Secretaria De Educacao	Folha De Pagamento</li>
+            <li>Atencao Basica	2 - Fundo Municipal De Saude	Folha De Pagamento</li>
+            <li>Geral	1 - Secretaria De Servicos Publicos</li>
+            <li>Progr.Melhoria Mobilidade Urbana E Sociambiental</li>
+          </ol>
+        </li>
+        <!-- 2020 -->
+        <li>
+          2020
+          <!-- Lista dos gastos -->
+          <ol>
+            <li>Educacao - Fundeb - Magisterio	1 - Secretaria De Educacao	Folha De Pagamento</li>
+            <li>Atencao Basica	2 - Fundo Municipal De Saude	Folha De Pagamento</li>
+            <li>Geral	1 - Secretaria De Servicos Publicos</li>
+            <li>Ensino Fundamental	1 - Secretaria De Educacao	Folha De Pagamento</li>
+            <li>Progr.Melhoria Mobilidade Urbana E Sociambiental</li>
+          </ol>
+        </li>
+        <!-- 2021 -->
+        <li>
+          2021
+          <!-- Lista dos gastos -->
+          <ol>
+            <li>Secretaria De Educacao Educacao-Fundeb-Mag/Prof - Educacao</li>
+            <li>Atencao Basica	2 - Fundo Municipal De Saude</li>
+            <li>Geral	1 - Secretaria De Servicos Publicos</li>
+            <li>Atencao Media Alta Comp Ambulatorial Hospitalar	2 - Fundo Municipal De Saude</li>
+            <li>Ensino Fundamental	1 - Secretaria De Educacao	Folha De Pagamento</li>
+          </ol>
+        </li>
+        <!-- 2022 -->
+        <li>
+          2022
+          <!-- Lista dos gastos -->
+          <ol>
+            <li>Secretaria De Educacao Educacao-Fundeb-Mag/Prof - Educacao</li>
+            <li>Secretaria De Servicos Publicos	Ecotaubate Ambiental S/A</li>
+            <li>Fundo Municipal De Saude	Associacao Paul. Para Desenv. Medicina - Spdm</li>
+            <li>Fundo Municipal De Saude	Instituto Esperanca</li>
+            <li>Atencao Basica	2 - Fundo Municipal De Saude</li>
+          </ol>
+        </li>
+      </ul>
+    </div>
+
+    <!-- Script do Gráfico -->
     <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
     <script>
       const ctx = document.getElementById('myChart');
@@ -48,6 +107,9 @@
           {
           label: "{{ gastos.index(ordem)+1 }}º Maior gasto",
           data: {{ ordem }},
+          backgroundColor: [
+            "{{ cores[gastos.index(ordem)] }}"
+          ],
           borderWidth: 1
           },
           {% endfor %}
