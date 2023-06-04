@@ -1,0 +1,8 @@
+version: '3.8'
+
+services:
+  pythonapp:
+    build: ./src/
+    command: sh -c "sleep 1s ; flask run --host 0.0.0.0"
+    ports:
+      - '5000:5000'
