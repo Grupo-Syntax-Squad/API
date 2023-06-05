@@ -50,6 +50,34 @@ Dessa forma, com as Tarefas já traçadas, definimos a quantidade de tempo neces
 
       
 <br> 
+</br>
+## 🛠️Executando o sistema
+
+Para a correta visualização do sistema, são necessários alguns passos:
+
+1. É preciso ter o Git instalado para a clonagem deste repositório. Você pode fazer o Download do Git neste link https://git-scm.com/downloads.
+
+2.1 Você também precisará instalar o Docker. Faça o download da versão mais recente disponível:
+      *Windowns - https://docs.docker.com/desktop/install/windows-install/
+      *Mac - https://docs.docker.com/desktop/install/mac-install/
+      *Linux (Ubuntu) - https://docs.docker.com/engine/install/ubuntu/
+2.2 Instale o plugin do Docker compose seguindo as instruções para seu SO de acordo com as instruções disponíveis em https://docs.docker.com/compose/install/
+      
+Para clonar o repositório:
+
+3. Crie uma pasta em um local de preferência;
+
+4. Clique na barra de endereço da pasta e digite “CMD”;
+
+5. O terminal do Windows irá abrir e digite o seguinte comando dentro do terminal: “git clone https://github.com/GRUPOAPIDSM2023/API.git”;
+
+6. Após a clonagem, ainda dentro do terminal, navegue para a pasta “API” digitando o comando “CD API”;
+
+7. Execute o comando "docker compose up" para realizar o build da imagem do sistema que inicializará o container automaticamente;
+
+8. Basta acessar o endereço "localhost:5000" no seu navegador de preferência para ter acesso ao sistema funcionando.
+<br>
+</br>
 
 ## 📅Sprints 
 
