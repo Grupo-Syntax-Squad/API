@@ -4,7 +4,7 @@
 
 Para que a execução do sistema e seu uso sejam efetivados, listamos um passo a passo para guiar o usuário:
 
-1. Intalação do Git:
+1. Instalação do Git:
   - Você precisará do Git instalado para poder fazer a clonagem deste repositório: [Clique aqui para instalar o Git](https://git-scm.com/downloads) 
 
 2. Python:
