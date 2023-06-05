@@ -5,7 +5,7 @@
 <hr>
 <br>
 <h4 align="center">
- <a href="https://trello.com/pt-BR?&aceid=&adposition=&adgroup=148159506607&campaign=19269516466&creative=641463051732&device=c&keyword=trello&matchtype=e&network=g&placement=&ds_kids=p74543507295&ds_e=GOOGLE&ds_eid=700000001557344&ds_e1=GOOGLE&gad=1&gclid=CjwKCAjw6IiiBhAOEiwALNqncf7LMdvvHQRYfJqN7Ar6MpY06WXKkjGvjZkDdOoWDNWaCxJubX9smRoCqZoQAvD_BwE&gclsrc=aw.ds" target="_blank"><img src="https://img.shields.io/badge/-Trello-%230077B5?style=for-the-badge&logo=Trello&logoColor=dark-blue" target="_blank"></a>   <a href="https://www.figma.com" target="_blank"><img src="https://img.shields.io/badge/-Figma-%23E4405F?style=for-the-badge&logo=Figma&logoColor=white" target="_blank"></a>  <a href="https://www.python.org/downloads/release/python-370/" target="_blank"><img src="https://img.shields.io/badge/-Python-%2388CE?style=for-the-badge&logo=Python&logoColor=white" target="_blank"></a> <a href="https://code.visualstudio.com" target="_blank"><img src="https://img.shields.io/badge/-Visual Studio Code-%2384CE?style=for-the-badge&logo=Visual Studio Code&logoColor=white" target="_blank"></a> 
+ <a href="https://trello.com/pt-BR?&aceid=&adposition=&adgroup=148159506607&campaign=19269516466&creative=641463051732&device=c&keyword=trello&matchtype=e&network=g&placement=&ds_kids=p74543507295&ds_e=GOOGLE&ds_eid=700000001557344&ds_e1=GOOGLE&gad=1&gclid=CjwKCAjw6IiiBhAOEiwALNqncf7LMdvvHQRYfJqN7Ar6MpY06WXKkjGvjZkDdOoWDNWaCxJubX9smRoCqZoQAvD_BwE&gclsrc=aw.ds" target="_blank"><img src="https://img.shields.io/badge/-Trello-%230077B5?style=for-the-badge&logo=Trello&logoColor=dark-blue" target="_blank"></a>   <a href="https://www.figma.com" target="_blank"><img src="https://img.shields.io/badge/-Figma-%23E4405F?style=for-the-badge&logo=Figma&logoColor=white" target="_blank"></a>  <a href="https://www.python.org/downloads/release/python-370/" target="_blank"><img src="https://img.shields.io/badge/-Python-%2388CE?style=for-the-badge&logo=Python&logoColor=white" target="_blank"></a> <a href="https://code.visualstudio.com" target="_blank"><img src="https://img.shields.io/badge/-Visual Studio Code-%2384CE?style=for-the-badge&logo=Visual Studio Code&logoColor=white" target="_blank"></a> <a href="https://www.docker.com/" target="_blank"><img src="https://img.shields.io/badge/-Docker-52b5f7?style=for-the-badge&logo=Docker&logoColor=white" target="_blank"></a>
 </h4>
 <br>
 <p align="center">
@@ -21,14 +21,17 @@
 
 ## 📌Objetivo do Projeto
 > O produto tem como objetivo facilitar para o jornalista acessar, visualizar e comparar dados que estão relacionados a COVID Longa em uma interface de fácil navegação e fácil acesso. 
-> **Status do Projeto: Em andamento ⏳**
+> **Status do Projeto: Concluído✅**
 
 <br> 
   
 ## 💡Visão do Produto
 
 Para jornalistas da Rede Vanguarda que desejam acessar, visualizar e analisar dados da COVID Longa, o "Data-SARS" é um site que permite um fácil acesso a informações relacionadas a COVID Longa. Ao contrário de alguns sites que propagam Fake News e que não possuem filtros de pesquisa, o nosso produto fornece os dados de maneira que seja fácil de entender e de analisar os dados, uma vez que nossos dados são autênticos e possuímos uma área de interação minimalista.
-<br> </br>
+
+[Clique aqui para saber mais sobre a COVID Longa](https://www.ufsm.br/midias/arco/covid-longa-imprevisivel-e-debilitante)
+
+<br>
 
 ## 📚Metodologia
 
@@ -46,39 +49,14 @@ Dessa forma, com as Tarefas já traçadas, definimos a quantidade de tempo neces
 
 1. Wireframe: [Protótipo navegável](https://www.figma.com/proto/Ox8KcNvkylAJDsWbpvBEIQ/COVID-longa?node-id=7-18&scaling=min-zoom&page-id=0%3A1&starting-point-node-id=7%3A18)
 2. Web Site: [Versão atual](documents/video/Navegacao_DataSars.mp4)
-3. Web Site: [Raspagem de Dados](https://github.com/GRUPOAPIDSM2023/API/tree/main/src/Gráficos%20e%20Raspagem%20de%20Dados)
-
+3. Web Site: [Raspagem de Dados](https://github.com/GRUPOAPIDSM2023/API/tree/main/src/GraficosRaspagemDados)
+4. Web Site: [Sistema Completo](https://github.com/GRUPOAPIDSM2023/API/tree/main/src)
       
 <br> 
-</br>
-🛠️Executando o sistema
 
-Para a correta visualização do sistema, são necessários alguns passos:
+### [Clique aqui para saber como rodar a aplicação](https://github.com/GRUPOAPIDSM2023/API/edit/main/src/README.md)
 
-1. É preciso ter o Git instalado para a clonagem deste repositório. Você pode fazer o Download do Git neste link https://git-scm.com/downloads.
-
-  2.1 Você também precisará instalar o Docker. Faça o download da versão mais recente disponível:
-      *Windowns - https://docs.docker.com/desktop/install/windows-install/</br>
-      *Mac - https://docs.docker.com/desktop/install/mac-install/</br>
-      *Linux (Ubuntu) - https://docs.docker.com/engine/install/ubuntu/</br>
-      
-  2.2 Instale o plugin do Docker compose seguindo as instruções para seu SO de acordo com as instruções disponíveis em https://docs.docker.com/compose/install/
-      
-Para clonar o repositório:
-
-3. Crie uma pasta em um local de preferência;
-
-4. Clique na barra de endereço da pasta e digite “CMD”;
-
-5. O terminal do Windows irá abrir e digite o seguinte comando dentro do terminal: “git clone https://github.com/GRUPOAPIDSM2023/API.git”;
-
-6. Após a clonagem, ainda dentro do terminal, navegue para a pasta “API” digitando o comando “CD API”;
-
-7. Execute o comando "docker compose up" para realizar o build da imagem do sistema que inicializará o container automaticamente;
-
-8. Basta acessar o endereço "localhost:5000" no seu navegador de preferência para ter acesso ao sistema funcionando.
-<br>
-</br>
+<br> 
 
 ## 📅Sprints 
 
@@ -88,7 +66,7 @@ Para clonar o repositório:
 
 ### Sprint - 3️⃣ 🎯 ([Clique aqui](/documents/Sprints/Sprint3)):  Concluído✅
 
-### Sprint - 4️⃣ 🎯 :  Em construção🚧
+### Sprint - 4️⃣ 🎯 ([Clique aqui](/documents/Sprints/Sprint4)):  Concluído✅
 
 <br>
 
@@ -122,9 +100,12 @@ Para clonar o repositório:
 | Menu de Navegação        | "Eu, como desenvolvedor, desejo acessar sites como: Tabnet, sites governamentais, sites de institutos, para extrair dados através de uma raspagem de dados, utilizando os filtros da Sprint anterior."                 | 3      | Alta                | #09 | 04h | ✅  |  14/05            |
 | Menu de Navegação        | "Eu, como desenvolvedor, desejo salvar as referências que estou utlizando na raspagem de dados e guarda-las na documentação, em que, seja possível o usuário acessa-las."                        | 3      | Alta                | #09 | 04h | ✅  |  14/05            |
 | Integração dos Gráficos ao site  |                        | 3      | Médio               | #10 | 04h | ✅  |  14/05            |
-| Formatação do Site e Estilização |                        | 4      | Média               | #11 | 04h | 🚧  |  04/06            |
-| Testes                           |                        | 4      | Média               | #12 | 05h | 🚧  |  04/06            |
-| README                           |                        | 4      | Baixa               | #13 | 02h | 🚧  |  04/06            |
+| Formatação do Site e Estilização | "Eu, como desenvolvedor, desejo refinar o CSS do Data SARS, com o intuito de embelezar o sistema e adicionar funcionalidades extras que garantam uma boa expeiência de usuário."                  | 4      | Média               | #11 | 04h | ✅  |  04/06            |
+| Formatação do Site e Estilização | "Eu, como desenvolvedor, quero adicionar textos explicativos sobre o projeto à página Home."      | 4      | Média         | #11 | 04h | ✅  |  04/06         |
+| Formatação do Site e Estilização | "Eu, como desenvolvedor, quero adicionar textos explicativos sobre o grupo e realização do projeto à página Quem Somos."| 4      | Média               | #11 | 04h | ✅  |  04/06            |
+| Formatação do Site e Estilização | "Eu, como desenvolvedor, quero corrigir os erros e bugs encontrados." | 4      | Média               | #11 | 04h | ✅  |  04/06    |
+| Testes                           | "Eu, como desenvolvedor, quero testar a aplicação, no intuito de encontrar e corrigir possíveis bugs e erros."              | 4      | Média               | #12 | 05h | ✅  |  04/06            |
+| README                           | "Eu, como desenvolvedor, quero disponibilizar um arquivo README que instrua o usuário sobre como utilizar o sistema e informe sobre os porcessos por trás da aplicação."| 4      | Baixa               | #13 | 02h | ✅  |  04/06            |
 <br>
 
 ## 👨‍💻**Autores** 
