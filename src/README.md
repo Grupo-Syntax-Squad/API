@@ -1,20 +1,20 @@
-# 🤔Como Utilizar nosso Site:
+# 🤔Como utilizar nosso site:
 
 ## Requisitos
 
-Para que a execução do sistema e seu uso sejam efetivados, listamos um passo a passo para realizar guiar o usuário:
+Para que a execução do sistema e seu uso sejam efetivados, listamos um passo a passo para guiar o usuário:
 
 1. Intalação do Git:
-  - Você precisará do git instalado para poder fazer a clonagem deste repositório; [Clique aqui para instalar o Git](https://git-scm.com/downloads). 
+  - Você precisará do Git instalado para poder fazer a clonagem deste repositório: [Clique aqui para instalar o Git](https://git-scm.com/downloads) 
 
 2. Python:
-  - No momento em que for instalar o python, escolha uma versão superior à 3.6. Durante a instalação, não se esqueça de marcar a opção da instalação do "pip"; [Clique aqui para instalar o python](https://www.python.org/downloads/).
+  - No momento em que for instalar o Python, escolha uma versão superior à 3.6. Durante a instalação, não se esqueça de marcar a opção da instalação do "pip"; [Clique aqui para instalar o Python](https://www.python.org/downloads/).
 
 3. Docker:
   -Você também precisará instalar o Docker. Faça o download da versão mais recente disponível: <br>
-      [Clique aqui para instalar o Docker para Windowns](https://docs.docker.com/desktop/install/windows-install/).</br>
+      [Clique aqui para instalar o Docker para Windows](https://docs.docker.com/desktop/install/windows-install/).</br>
       [Clique aqui para instalar o Docker para MAC](https://docs.docker.com/desktop/install/mac-install/)</br>
-      [Clique aqui para instalar o Docker para Linus(Ubuntu)](https://docs.docker.com/engine/install/ubuntu/)</br>
+      [Clique aqui para instalar o Docker para Linux(Ubuntu)](https://docs.docker.com/engine/install/ubuntu/)</br>
       
   -3.2 Instale o plugin do Docker compose seguindo as instruções para seu SO de acordo com as instruções disponíveis em: [Docker Compose](https://docs.docker.com/compose/install/)
 
@@ -37,18 +37,18 @@ cd src/
 ```
 docker compose up
 ```
-este comando irá fazer o biuld a imagem do sistema que inicializará o container automaticamente;
+esse comando irá fazer o build a imagem do sistema que inicializará o container automaticamente;
 
 4. Basta acessar o endereço no seu navegador de preferência para ter acesso ao sistema funcionando:
 ```
 localhost:5000
 ```
 ## Iniciando o ambiente virtual
-- caso queira você pode rodar a aplicação sem usar o docker seguindo os seguintes passos:
+- Caso queira você pode rodar a aplicação sem usar o Docker seguindo os seguintes passos:
 
 Com o repositório clonado e no diretório correto, você deverá criar um ambiente virtual para rodar o sistema. Siga os próximos passos:
 
-1. Ao entrar na pasta src, digite os seguintes comandos:
+1. Após entrar na pasta src, digite os seguintes comandos:
 ```
 py -3 -m venv venv
 python -m venv venv
@@ -67,7 +67,7 @@ Para encerrar o uso do site e sair do ambiente virtual vá ao seu terminal, (ond
 deactivate
 ```
 
-## Vídeo Demonstrativo do Site Funcionando (Versão Atual):
+## Vídeo demonstrativo do site funcionando (Versão Atual):
 > O vídeo abaixo é um exemplo do site em funcionamento.
 
 
