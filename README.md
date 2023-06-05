@@ -51,17 +51,18 @@ Dessa forma, com as Tarefas já traçadas, definimos a quantidade de tempo neces
       
 <br> 
 </br>
-## 🛠️Executando o sistema
+🛠️Executando o sistema
 
 Para a correta visualização do sistema, são necessários alguns passos:
 
 1. É preciso ter o Git instalado para a clonagem deste repositório. Você pode fazer o Download do Git neste link https://git-scm.com/downloads.
 
-2.1 Você também precisará instalar o Docker. Faça o download da versão mais recente disponível:
-      *Windowns - https://docs.docker.com/desktop/install/windows-install/
-      *Mac - https://docs.docker.com/desktop/install/mac-install/
-      *Linux (Ubuntu) - https://docs.docker.com/engine/install/ubuntu/
-2.2 Instale o plugin do Docker compose seguindo as instruções para seu SO de acordo com as instruções disponíveis em https://docs.docker.com/compose/install/
+  2.1 Você também precisará instalar o Docker. Faça o download da versão mais recente disponível:
+      *Windowns - https://docs.docker.com/desktop/install/windows-install/</br>
+      *Mac - https://docs.docker.com/desktop/install/mac-install/</br>
+      *Linux (Ubuntu) - https://docs.docker.com/engine/install/ubuntu/</br>
+      
+  2.2 Instale o plugin do Docker compose seguindo as instruções para seu SO de acordo com as instruções disponíveis em https://docs.docker.com/compose/install/
       
 Para clonar o repositório:
 
