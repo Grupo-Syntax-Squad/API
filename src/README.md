@@ -67,8 +67,8 @@ Para encerrar o uso do site e sair do ambiente virtual vá ao seu terminal, (ond
 deactivate
 ```
 
-## Vídeo demonstrativo do site funcionando (Versão Atual):
+## Vídeo demonstrativo do site funcionando (Versão Sprint3):
 > O vídeo abaixo é um exemplo do site em funcionamento.
 
 
-https://github.com/GRUPOAPIDSM2023/API/assets/125401155/af9d359d-d948-475b-8054-29a1184abea2
+https://github.com/GRUPOAPIDSM2023/API/assets/125401155/ddbbe088-c598-4db7-b72e-429309adf4ba
