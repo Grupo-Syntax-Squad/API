@@ -28,11 +28,13 @@
         <option value="graficos_gastos_jacarei">Gastos</option>
       </select>
     </div><br>
-    <div class="alinhar">
-      <img src="../../static/graficos_gastos/aplicacao_recursos_saude_jacarei.png" alt="Aplicação de recursos na saúde por quadrimestre em Jacareí">
-  </div>
 
-  <!-- Gráfico 5 maiores gastos -->
+  <!-- Gráfico 5 maiores gastos e Recursos na saúde -->
+  <div class="gf" style="display: flex;justify-content: center;flex-direction: column;">
+    <h1>Quadro de Aplicação de Recursos na Saúde</h1>
+    <canvas id="mychartg"></canvas>
+  </div>
+  
   <div class="gf">
     <canvas id="myChart"></canvas>
     <a class="fontes" href="https://siap.jacarei.sp.gov.br/portal-transparencia/execucao/despesas-detalhadas" target="_blank"> Fonte: https://siap.jacarei.sp.gov.br/portal-transparencia/execucao/despesas-detalhadas </a>  
@@ -96,35 +98,74 @@
   <!-- Script do Gráfico -->
   <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
   <script>
+    // Instanciando os dois gráficos
     const ctx = document.getElementById('myChart');
+    const ct = document.getElementById('mychartg');
 
-    new Chart(ctx, {
+    // Recursos na saúde
+    new Chart(ct, {
     type: 'bar',
     data: {
-        labels: [2019, 2020, 2021, 2022],
-        datasets: [
-        {% for ordem in gastos %}
-        {
-        label: "{{ gastos.index(ordem)+1 }}º Maior gasto",
-        data: {{ ordem }},
-        backgroundColor: [
-          "{{ cores[gastos.index(ordem)] }}"
-        ],
+      labels: ["1º Quadrimestre", "2º Quadrimestre", "3º Quadrimestre", "4º Quadrimestre"],
+      datasets: [{
+        label: "2019",
+        data: [43983823.1, 91364516.49, 139210658.44],
         borderWidth: 1
         },
-        {% endfor %}
+        {
+        label: "2020",
+        data: [45386187.32, 0, 131249878.53],
+        borderWidth: 1
+        },
+        {
+        label: "2021",
+        data: [54339012.97, 112870092.75, 174315204.75],
+        borderWidth: 1
+        },
+        {
+        label: "2022",
+        data: [58691735.23, 124443335.47, 199151357.19],
+        borderWidth: 1
+        },
       ]
     },
     options: {
-        responsive: true,
-        maintainAspectRatio: false,
-        scales: {
+      scales: {
         y: {
-            beginAtZero: true
+          beginAtZero: true
         }
-        }
+      }
     }
-    });
+  });
+
+  // 5 Maiores gastos
+  new Chart(ctx, {
+  type: 'bar',
+  data: {
+      labels: [2019, 2020, 2021, 2022],
+      datasets: [
+      {% for ordem in gastos %}
+      {
+      label: "{{ gastos.index(ordem)+1 }}º Maior gasto",
+      data: {{ ordem }},
+      backgroundColor: [
+        "{{ cores[gastos.index(ordem)] }}"
+      ],
+      borderWidth: 1
+      },
+      {% endfor %}
+    ]
+  },
+  options: {
+      responsive: true,
+      maintainAspectRatio: false,
+      scales: {
+      y: {
+          beginAtZero: true
+      }
+      }
+  }
+  });
 </script>
 {% endblock %}
 
