@@ -48,10 +48,10 @@ Dessa forma, com as Tarefas já traçadas, definimos a quantidade de tempo neces
 <br>
 
 1. Wireframe: [Protótipo navegável](https://www.figma.com/proto/Ox8KcNvkylAJDsWbpvBEIQ/COVID-longa?node-id=7-18&scaling=min-zoom&page-id=0%3A1&starting-point-node-id=7%3A18)
-2. Web Site: [Versão atual](documents/video/Navegacao_DataSars.mp4)
+2. Web Site: [Versão atual](documents/video)
 3. Web Site: [Raspagem de Dados](https://github.com/GRUPOAPIDSM2023/API/tree/main/src/GraficosRaspagemDados)
 4. Web Site: [Sistema Completo](https://github.com/GRUPOAPIDSM2023/API/tree/main/src)
-      
+
 <br> 
 
 ### [Clique aqui para saber como rodar a aplicação](https://github.com/GRUPOAPIDSM2023/API/tree/main/src#readme)
