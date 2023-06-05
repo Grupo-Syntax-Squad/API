@@ -54,7 +54,7 @@ Dessa forma, com as Tarefas já traçadas, definimos a quantidade de tempo neces
       
 <br> 
 
-### [Clique aqui para saber como rodar a aplicação](https://github.com/GRUPOAPIDSM2023/API/edit/main/src/README.md)
+### [Clique aqui para saber como rodar a aplicação](https://github.com/GRUPOAPIDSM2023/API/main/src/README.md)
 
 <br> 
 
