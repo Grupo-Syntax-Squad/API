@@ -25,12 +25,12 @@ Com o Git, Python e Docker devidamente instalados em sua máquina, siga os próx
 1. Clone o repositório através de um terminal, utilize o comando:
 
 ```
-git clone https://github.com/GRUPOAPIDSM2023/API.git
+git clone https://github.com/GRUPOAPIDSM2023/DATA-SARS.git
 ``` 
 
 2. Ainda no terminal vá para a pasta src:
 ```
-cd API/
+cd DATA-SARS/
 cd src/
 ```
 3. Execute o comando:
